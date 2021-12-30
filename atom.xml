@@ -51,15 +51,14 @@
     <link href="http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
     <id>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-30T19:30:59.757Z</updated>
+    <updated>2021-12-30T19:43:47.116Z</updated>
     
-    <content type="html"><![CDATA[<p>#还没开始学</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="还没开始学"><a href="#还没开始学" class="headerlink" title="还没开始学 :("></a>还没开始学 :(</h1>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;#还没开始学&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h1 id=&quot;还没开始学&quot;&gt;&lt;a href=&quot;#还没开始学&quot; class=&quot;headerlink&quot; title=&quot;还没开始学 :(&quot;&gt;&lt;/a&gt;还没开始学 :(&lt;/h1&gt;</summary>
       
     
     
@@ -98,6 +97,31 @@
     
     
     <category term="学了又忘的杂七杂八" scheme="http://example.com/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去过的一些地方</title>
+    <link href="http://example.com/2021/12/30/someplaces/%E5%8E%BB%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9C%B0%E6%96%B9/"/>
+    <id>http://example.com/2021/12/30/someplaces/%E5%8E%BB%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9C%B0%E6%96%B9/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-30T20:00:04.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>巴黎 马耳他 罗马 米兰<br>有空再写</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;巴黎 马耳他 罗马 米兰&lt;br&gt;有空再写&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="到处跑" scheme="http://example.com/categories/%E5%88%B0%E5%A4%84%E8%B7%91/"/>
+    
+    
+    <category term="到处跑" scheme="http://example.com/tags/%E5%88%B0%E5%A4%84%E8%B7%91/"/>
     
   </entry>
   
