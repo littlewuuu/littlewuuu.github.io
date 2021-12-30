@@ -51,7 +51,7 @@
     <link href="http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
     <id>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-30T19:27:52.668Z</updated>
+    <updated>2021-12-30T19:30:59.757Z</updated>
     
     <content type="html"><![CDATA[<p>#还没开始学</p>]]></content>
     
@@ -68,6 +68,36 @@
     
     
     <category term="学的费劲的" scheme="http://example.com/tags/%E5%AD%A6%E7%9A%84%E8%B4%B9%E5%8A%B2%E7%9A%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown 没学明白指南</title>
+    <link href="http://example.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>http://example.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-30T19:34:01.347Z</updated>
+    
+    <content type="html"><![CDATA[<p>#1. 一级标题<br>##二级<br>###三级</p><p>这是正文<br>同一段</p><p>另外一段<br>##文字相关</p><pre><code>***斜体加粗*** </code></pre><p><del>删除线</del></p><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p></blockquote></blockquote></blockquote><hr><p>分割线</p><hr><p><strong>加粗了</strong><br>也可以使用 command+b 来加粗</p><p><em>斜体</em><br>也可以使用 command+i 来斜体</p><pre><code>1.第一个2.第二个3.第三个</code></pre><p>##插入图片<br><img src="%E6%88%AA%E5%B1%8F2021-12-09%2003.09.32.png" alt="这是我" title="wuzilp"><br><em>这是我</em></p><p>##输入 LaTeX 公式<br>enter latex between these two 美元符号<br>$$<br>enter latex between these two<br>$$</p><p>command + m 连续按两下，出现四个$<br>command + m 出现两个$<br>在一段句子中插入公式$ sin (x) $</p><p>##表格<br>|    姓名 | 学号       |    班级    | 学院 |<br>| ——-:| :——— | :——–: | —- |<br>| wuzilong | 2019110473 | 计算机一班 |</p><p>##插入链接<br>复制链接，然后选中想要添加链接的文字，command+v，就可以自动添加了，这是一个<a href="https://www.bilibili.com/video/BV1si4y1472o?from=search&seid=1855512916546594836&spm_id_from=333.337.0.0">链接</a></p><p>##code</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> main(void)</span><br><span class="line">美式键盘下打出这三个小撇</span><br></pre></td></tr></table></figure><p><img src="%E6%B3%95%E8%AF%AD%E9%94%AE%E7%9B%98.jpeg"></p><p>##超链接<br><a href="http://littlewuu/">微博</a><br><em>Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</em></p><p><a href="超链接地址" target="_blank">超链接名</a></p><p>示例<br><a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a></p><p>##列表<br>###无序列表</p><ul><li>“-”可以表示列表</li></ul><ul><li>“+”也可以</li></ul><ul><li>“*”也可以<br>###有序列表</li></ul><ol><li>第一个<ol><li>第二个,可以用 tab 键来实现不同级别</li></ol></li><li>第三个</li></ol><p><em>序号和后面的内容要有空格</em></p><p>##流程图</p><pre><code class="flow">st=&gt;start: 开始op=&gt;operation: 选择cond=&gt;condition: Yes or No?e=&gt;end: endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#1. 一级标题&lt;br&gt;##二级&lt;br&gt;###三级&lt;/p&gt;
+&lt;p&gt;这是正文&lt;br&gt;同一段&lt;/p&gt;
+&lt;p&gt;另外一段&lt;br&gt;##文字相关&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;***斜体加粗*** 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
+&lt;blockq</summary>
+      
+    
+    
+    
+    <category term="skills" scheme="http://example.com/categories/skills/"/>
+    
+    
+    <category term="学了又忘的杂七杂八" scheme="http://example.com/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
   </entry>
   
