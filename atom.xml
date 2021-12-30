@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-30T19:23:37.945Z</updated>
+  <updated>2021-12-30T19:01:46.059Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
-    <id>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
-    <published>2021-12-30T19:22:54.039Z</published>
-    <updated>2021-12-30T19:23:37.945Z</updated>
-    
-    <content type="html"><![CDATA[<p>#还没开始学</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;#还没开始学&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>教会自己用 git</title>
@@ -64,6 +43,31 @@
     
     
     <category term="学了又忘的杂七杂八" scheme="http://example.com/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>教会自己用 git</title>
+    <link href="http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
+    <id>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-30T19:26:12.245Z</updated>
+    
+    <content type="html"><![CDATA[<p>#还没开始学</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#还没开始学&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="cours" scheme="http://example.com/categories/cours/"/>
+    
+    
+    <category term="学的费劲的" scheme="http://example.com/tags/%E5%AD%A6%E7%9A%84%E8%B4%B9%E5%8A%B2%E7%9A%84/"/>
     
   </entry>
   
