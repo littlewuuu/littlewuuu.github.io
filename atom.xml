@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-30T21:55:38.456Z</updated>
+  <updated>2021-12-31T06:58:24.674Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/12/30/francaise/%E5%85%AB%E7%99%BE%E7%BB%83/"/>
+    <id>http://example.com/2021/12/30/francaise/%E5%85%AB%E7%99%BE%E7%BB%83/</id>
+    <published>2021-12-30T22:36:24.977Z</published>
+    <updated>2021-12-31T06:58:24.674Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="test1"><a href="#test1" class="headerlink" title="test1"></a>test1</h1><ol><li>vieux </li><li>le jour de l’ouverture, il y a des bougies allumées sue des table #过去分词当形容词</li><li>passer le temps à faire qch</li><li>un sur cinq  #五分之一</li><li>changer A contre B  </li><li>voulez-vous me dire ce que vous ferezde ce dictionnaire  #ce que 当宾语</li><li>le temps qu’il a perdu ne se retrouve jamais</li><li>une saison</li><li>faire attention à</li><li>aucun #指人</li><li>se mettre à plusieurs  #几个人一起干</li><li>n’importe où  #无论什么地方</li><li>quelqu’un de compétent  #形容词修饰指示代词要加 de </li><li>une personne compétente</li><li>dans chacune des fermes #chacun,e 是指示代词   chaque fois  #chaque 是形容词</li></ol><h1 id="test2"><a href="#test2" class="headerlink" title="test2"></a>test2</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;test1&quot;&gt;&lt;a href=&quot;#test1&quot; class=&quot;headerlink&quot; title=&quot;test1&quot;&gt;&lt;/a&gt;test1&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;vieux &lt;/li&gt;
+&lt;li&gt;le jour de l’ouverture, il y a des b</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>教会自己用 git</title>
@@ -51,7 +73,7 @@
     <link href="http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
     <id>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-30T19:43:47.116Z</updated>
+    <updated>2021-12-31T07:34:02.392Z</updated>
     
     <content type="html"><![CDATA[<h1 id="还没开始学"><a href="#还没开始学" class="headerlink" title="还没开始学 :("></a>还没开始学 :(</h1>]]></content>
     
@@ -66,7 +88,7 @@
     <category term="cours" scheme="http://example.com/categories/cours/"/>
     
     
-    <category term="学的费劲的" scheme="http://example.com/tags/%E5%AD%A6%E7%9A%84%E8%B4%B9%E5%8A%B2%E7%9A%84/"/>
+    <category term="有点难学的" scheme="http://example.com/tags/%E6%9C%89%E7%82%B9%E9%9A%BE%E5%AD%A6%E7%9A%84/"/>
     
   </entry>
   

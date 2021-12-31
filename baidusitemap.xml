@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2021/12/30/francaise/%E5%85%AB%E7%99%BE%E7%BB%83/</loc>
+    <lastmod>2021-12-31</lastmod>
+  </url>
+  <url>
     <loc>http://example.com/2021/12/30/git_usage1/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
@@ -10,10 +18,6 @@
   </url>
   <url>
     <loc>http://example.com/2021/12/30/francaise/conditionnel/</loc>
-    <lastmod>2021-12-30</lastmod>
-  </url>
-  <url>
-    <loc>http://example.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
     <lastmod>2021-12-30</lastmod>
   </url>
   <url>
