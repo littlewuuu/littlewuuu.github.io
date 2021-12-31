@@ -42,27 +42,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2021/12/30/francaise/conditionnel/"/>
-    <id>http://example.com/2021/12/30/francaise/conditionnel/</id>
-    <published>2021-12-30T20:40:25.288Z</published>
-    <updated>2021-12-31T07:43:45.283Z</updated>
-    
-    <content type="html"><![CDATA[<p>c</p><h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;c&lt;/p&gt;
-&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel prés</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>教会自己用 git</title>
     <link href="http://example.com/2021/12/30/git_usage1/"/>
     <id>http://example.com/2021/12/30/git_usage1/</id>
@@ -168,6 +147,30 @@
     
     
     <category term="到处跑" scheme="http://example.com/tags/%E5%88%B0%E5%A4%84%E8%B7%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>conditionnel</title>
+    <link href="http://example.com/2021/12/30/francaise/conditionnel/"/>
+    <id>http://example.com/2021/12/30/francaise/conditionnel/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-31T19:14:47.046Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel présent&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="le français" scheme="http://example.com/categories/le-francais/"/>
+    
+    
+    <category term="le français" scheme="http://example.com/tags/le-francais/"/>
     
   </entry>
   
