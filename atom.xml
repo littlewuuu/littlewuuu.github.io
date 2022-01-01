@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-31T19:09:21.625Z</updated>
+  <updated>2022-01-01T00:40:28.393Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始尝试思考</title>
+    <link href="http://example.com/2022/01/01/%E5%BE%97%E6%80%9D%E8%80%83/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%80%9D%E8%80%83/"/>
+    <id>http://example.com/2022/01/01/%E5%BE%97%E6%80%9D%E8%80%83/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%80%9D%E8%80%83/</id>
+    <published>2021-12-31T23:00:00.000Z</published>
+    <updated>2022-01-01T00:40:28.393Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是 2022 年的第一天，我想开始尝试思考一些不一样的东西，以前一直觉得自己是一个自己干的人，很不愿意去麻烦别人，但是在意大利回来后自己呆在房间里的一个星期里，好像有一点不一样的感受，意识到自己并不能连续几天不动嘴讲话，需要有一些人一些事引导我去思考，把我的注意力吸引到（人就是不能太闲）。我其实是一个很热心肠的人，可是有些人和我说，我给他们一副爱答不理的样子，我也很困惑，我也是一个社交困难户，最开始和人相处的时候总是会有一些尴尬，</p><p>思考不动去睡觉了，害怕自己明天不想写，先传上来</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是 2022 年的第一天，我想开始尝试思考一些不一样的东西，以前一直觉得自己是一个自己干的人，很不愿意去麻烦别人，但是在意大利回来后自己呆在房间里的一个星期里，好像有一点不一样的感受，意识到自己并不能连续几天不动嘴讲话，需要有一些人一些事引导我去思考，把我的注意力吸引到（</summary>
+      
+    
+    
+    
+    <category term="七想八想" scheme="http://example.com/categories/%E4%B8%83%E6%83%B3%E5%85%AB%E6%83%B3/"/>
+    
+    
+    <category term="一些思考" scheme="http://example.com/tags/%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
   
   <entry>
     <title>张某人的美食</title>
