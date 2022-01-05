@@ -91,6 +91,31 @@
   </entry>
   
   <entry>
+    <title>markdown 没学明白指南</title>
+    <link href="http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2022-01-01T17:56:14.209Z</updated>
+    
+    <content type="html"><![CDATA[<p>#1. 一级标题</p><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><p>这是正文<br>同一段</p><p>另外一段<br>##文字相关</p><pre><code>***斜体加粗*** </code></pre><p><del>删除线</del></p><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p></blockquote></blockquote></blockquote><hr><p>分割线</p><hr><p><strong>加粗了</strong><br>也可以使用 command+b 来加粗</p><p><em>斜体</em><br>也可以使用 command+i 来斜体</p><pre><code>1.第一个2.第二个3.第三个</code></pre><p>##插入图片<br><img src="%E6%88%AA%E5%B1%8F2021-12-09%2003.09.32.png" alt="这是我" title="wuzilp"><br><em>这是我</em></p><p>##输入 LaTeX 公式<br>enter latex between these two 美元符号<br>$$<br>enter latex between these two<br>$$</p><p>command + m 连续按两下，出现四个$<br>command + m 出现两个$<br>在一段句子中插入公式$ sin (x) $</p><p>##表格<br>|    姓名 | 学号       |    班级    | 学院 |<br>| ——-:| :——— | :——–: | —- |<br>| wuzilong | 2019110473 | 计算机一班 |</p><p>##插入链接<br>复制链接，然后选中想要添加链接的文字，command+v，就可以自动添加了，这是一个<a href="https://www.bilibili.com/video/BV1si4y1472o?from=search&seid=1855512916546594836&spm_id_from=333.337.0.0">链接</a></p><p>##code</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> main(void)</span><br><span class="line">美式键盘下打出这三个小撇</span><br></pre></td></tr></table></figure><p><img src="%E6%B3%95%E8%AF%AD%E9%94%AE%E7%9B%98.jpeg"></p><p>##超链接<br><a href="http://littlewuu/">微博</a><br><em>Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</em></p><p><a href="超链接地址" target="_blank">超链接名</a></p><p>示例<br><a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a></p><p>##列表<br>###无序列表</p><ul><li>“-”可以表示列表</li></ul><ul><li>“+”也可以</li></ul><ul><li>“*”也可以<br>###有序列表</li></ul><ol><li>第一个<ol><li>第二个,可以用 tab 键来实现不同级别</li></ol></li><li>第三个</li></ol><p><em>序号和后面的内容要有空格</em></p><p>##流程图</p><pre><code class="flow">st=&gt;start: 开始op=&gt;operation: 选择cond=&gt;condition: Yes or No?e=&gt;end: endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;#1. 一级标题&lt;/p&gt;
+&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot; title=&quot;二级&quot;&gt;&lt;/a&gt;二级&lt;/h2&gt;&lt;h3 id=&quot;三级&quot;&gt;&lt;a href=&quot;#三级&quot; class=&quot;headerlink&quot; title=&quot;三级&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="skills" scheme="http://littlewuuu.com/categories/skills/"/>
+    
+    
+    <category term="学了又忘的杂七杂八" scheme="http://littlewuuu.com/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>教会自己用 git</title>
     <link href="http://littlewuuu.com/2021/12/30/git_usage1/"/>
     <id>http://littlewuuu.com/2021/12/30/git_usage1/</id>
@@ -109,31 +134,6 @@
 &lt;li&gt;准备好本地的文件存放位置&lt;/li&gt;
 &lt;li&gt;切换终端目录到本地文件夹&lt;/li&gt;
 &lt;</summary>
-      
-    
-    
-    
-    <category term="skills" scheme="http://littlewuuu.com/categories/skills/"/>
-    
-    
-    <category term="学了又忘的杂七杂八" scheme="http://littlewuuu.com/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown 没学明白指南</title>
-    <link href="http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
-    <id>http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
-    <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2022-01-01T17:56:14.209Z</updated>
-    
-    <content type="html"><![CDATA[<p>#1. 一级标题</p><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><p>这是正文<br>同一段</p><p>另外一段<br>##文字相关</p><pre><code>***斜体加粗*** </code></pre><p><del>删除线</del></p><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p></blockquote></blockquote></blockquote><hr><p>分割线</p><hr><p><strong>加粗了</strong><br>也可以使用 command+b 来加粗</p><p><em>斜体</em><br>也可以使用 command+i 来斜体</p><pre><code>1.第一个2.第二个3.第三个</code></pre><p>##插入图片<br><img src="%E6%88%AA%E5%B1%8F2021-12-09%2003.09.32.png" alt="这是我" title="wuzilp"><br><em>这是我</em></p><p>##输入 LaTeX 公式<br>enter latex between these two 美元符号<br>$$<br>enter latex between these two<br>$$</p><p>command + m 连续按两下，出现四个$<br>command + m 出现两个$<br>在一段句子中插入公式$ sin (x) $</p><p>##表格<br>|    姓名 | 学号       |    班级    | 学院 |<br>| ——-:| :——— | :——–: | —- |<br>| wuzilong | 2019110473 | 计算机一班 |</p><p>##插入链接<br>复制链接，然后选中想要添加链接的文字，command+v，就可以自动添加了，这是一个<a href="https://www.bilibili.com/video/BV1si4y1472o?from=search&seid=1855512916546594836&spm_id_from=333.337.0.0">链接</a></p><p>##code</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> main(void)</span><br><span class="line">美式键盘下打出这三个小撇</span><br></pre></td></tr></table></figure><p><img src="%E6%B3%95%E8%AF%AD%E9%94%AE%E7%9B%98.jpeg"></p><p>##超链接<br><a href="http://littlewuu/">微博</a><br><em>Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</em></p><p><a href="超链接地址" target="_blank">超链接名</a></p><p>示例<br><a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a></p><p>##列表<br>###无序列表</p><ul><li>“-”可以表示列表</li></ul><ul><li>“+”也可以</li></ul><ul><li>“*”也可以<br>###有序列表</li></ul><ol><li>第一个<ol><li>第二个,可以用 tab 键来实现不同级别</li></ol></li><li>第三个</li></ol><p><em>序号和后面的内容要有空格</em></p><p>##流程图</p><pre><code class="flow">st=&gt;start: 开始op=&gt;operation: 选择cond=&gt;condition: Yes or No?e=&gt;end: endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op</code></pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;#1. 一级标题&lt;/p&gt;
-&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot; title=&quot;二级&quot;&gt;&lt;/a&gt;二级&lt;/h2&gt;&lt;h3 id=&quot;三级&quot;&gt;&lt;a href=&quot;#三级&quot; class=&quot;headerlink&quot; title=&quot;三级&quot;&gt;&lt;</summary>
       
     
     
@@ -170,6 +170,30 @@
   </entry>
   
   <entry>
+    <title>conditionnel</title>
+    <link href="http://littlewuuu.com/2021/12/30/francaise/conditionnel/"/>
+    <id>http://littlewuuu.com/2021/12/30/francaise/conditionnel/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-31T19:14:47.046Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel présent&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="le français" scheme="http://littlewuuu.com/categories/le-francais/"/>
+    
+    
+    <category term="le français" scheme="http://littlewuuu.com/tags/le-francais/"/>
+    
+  </entry>
+  
+  <entry>
     <title>去过的一些地方</title>
     <link href="http://littlewuuu.com/2021/12/30/someplaces/%E5%8E%BB%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9C%B0%E6%96%B9/"/>
     <id>http://littlewuuu.com/2021/12/30/someplaces/%E5%8E%BB%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9C%B0%E6%96%B9/</id>
@@ -195,37 +219,13 @@
   </entry>
   
   <entry>
-    <title>conditionnel</title>
-    <link href="http://littlewuuu.com/2021/12/30/francaise/conditionnel/"/>
-    <id>http://littlewuuu.com/2021/12/30/francaise/conditionnel/</id>
-    <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-31T19:14:47.046Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel présent&lt;/h1&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="le français" scheme="http://littlewuuu.com/categories/le-francais/"/>
-    
-    
-    <category term="le français" scheme="http://littlewuuu.com/tags/le-francais/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Quelques connaissances（Quelques exemples spécifiques）</title>
     <link href="http://littlewuuu.com/2021/01/01/francaise/%E5%85%AB%E7%99%BE%E7%BB%83/"/>
     <id>http://littlewuuu.com/2021/01/01/francaise/%E5%85%AB%E7%99%BE%E7%BB%83/</id>
     <published>2020-12-31T23:00:00.000Z</published>
-    <updated>2022-01-01T18:27:42.151Z</updated>
+    <updated>2022-01-05T22:10:13.523Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2021-12-30-test1"><a href="#2021-12-30-test1" class="headerlink" title="2021 12 30 test1"></a>2021 12 30 test1</h1><ol><li>vieux </li><li>le jour de l’ouverture, il y a des bougies allumées sue des table #过去分词当形容词</li><li>passer le temps à faire qch</li><li>un sur cinq  #五分之一</li><li>changer A contre B  </li><li>voulez-vous me dire ce que vous ferezde ce dictionnaire  #ce que 当宾语</li><li>le temps qu’il a perdu ne se retrouve jamais</li><li>une saison</li><li>faire attention à</li><li>aucun #指人</li><li>se mettre à plusieurs  #几个人一起干</li><li>n’importe où  #无论什么地方</li><li>quelqu’un de compétent  #形容词修饰指示代词要加 de </li><li>une personne compétente</li><li>dans chacune des fermes #chacun,e 是指示代词   chaque fois  #chaque 是形容词</li></ol><h1 id="2021-12-29"><a href="#2021-12-29" class="headerlink" title="2021 12 29"></a>2021 12 29</h1><h2 id="adverbes"><a href="#adverbes" class="headerlink" title="adverbes"></a>adverbes</h2><ol><li>Je veux <strong>bien</strong> faire une randonnée à vélo mais il faudra rouler lentement pour que nous puissions profiter du paysage.</li><li>mal mauvais</li><li>hapide vite</li><li>léopard  非洲豹  </li><li>Je suis d’accord avec toi. En revanche, je ne suis pas d’accord avec Paul.</li><li>Nous avons marché toute la matinée puis nous nous sommes arrêtés pour pique-niquer.</li><li>Mes voisins m’ont certes recommandé de rester chez moi aux heures chaudes, je dois pourtant sortir pour aller à la bibliothèque.</li></ol><h2 id="preposition"><a href="#preposition" class="headerlink" title="préposition"></a>préposition</h2><ol><li>près de - loin de</li><li>après - avant</li><li>avant 时间 - devant 地点</li><li>D’après la météo, il fera beau la semaine prochaine.（根据天气预报）</li></ol><h2 id="test-2"><a href="#test-2" class="headerlink" title="test 2"></a>test 2</h2><ol><li>compter sur qn </li><li>compter avec qn </li><li>pour + 一段时间</li><li>à + 时间点</li><li>dans dix minutes #十分钟后</li><li>même s’  哪怕</li><li>quoique 尽管</li><li>Avant de signer, lisez bien <strong>ce qui</strong> est écrit sue le contrat.<br><em>#ce qui 作 est écrit 的主语，判断的标准是看是不是后面接的句子的主语，而不是看整个句子的主语</em></li><li> songer à 想什么，思念什么</li><li><strong>en apprenant que</strong>（知道） l’équipe de France avait gagné, il a sauté de joie.<br><em>#de 表示原因</em></li><li>trop pour 太 以至于</li><li>etre responsable de 对  有责任</li><li>pourtant je <strong>le leur</strong> （先直接后间接）ai déjà expliqué dix fois #j’ai deja explique cettes questions à les étudiants</li><li>il fait <strong>un</strong> temps bizzare #有形容词修饰 temps，用不定冠词</li><li>la famille a passé <strong>d’excellentes vacances</strong> au bord de la mer<ol><li> vacance 空缺 vacances 假期</li><li> vacances 有 excellentes 修饰，用不定冠词 des</li><li> 当不定冠词直接在形容词之前，将 des 改成 de</li></ol></li><li>bijou - bijoux</li><li>beau - beaux</li><li>l’histoire a de quoi vous étonner<br>#avoir de quoi faire 有足够的的东西来</li><li>les chiens <strong>dont</strong> il a le plus peur<br>#il a le plus peur des les chiens</li><li><strong>rends-le-moi</strong> demain matin sans faute<br>#肯定命令句中 le moi y en</li><li><strong>toute</strong> jeune fille a rêvé du prince<br>#tout/toute + 单数 : 任何</li></ol><h1 id="test-3"><a href="#test-3" class="headerlink" title="test 3"></a>test 3</h1><ol><li>comme tel<br>#像这样</li><li>telle chose<br>#这样的事情</li><li>ses parents lui font pratiquer régulièrement du sport<br><em>#faire faire qch à qn 让某人做某事</em></li><li>tout heureuses</li><li>aucun 的用法<ol><li>ne/sans aucun 没有一个的</li><li>任何 </li></ol></li><li>quelconque – n’importe quel</li><li>beaucoup 的同等比较级 autant que</li><li>se faire sentir 使自己感到  se sentir 自己感到</li><li> faute de quoi</li><li>etre fier de 自豪</li><li>quelque chose de drôle<br><em>#泛指代词和形容词之间用 de 链接</em></li><li>etre + 序数词 + à + inf<br>#第几个做</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="2021-12-30-test1"><a href="#2021-12-30-test1" class="headerlink" title="2021 12 30 test1"></a>2021 12 30 test1</h1><ol><li>vieux </li><li>le jour de l’ouverture, il y a des bougies allumées sue des table #过去分词当形容词</li><li>passer le temps à faire qch</li><li>un sur cinq  #五分之一</li><li>changer A contre B  </li><li>voulez-vous me dire ce que vous ferezde ce dictionnaire  #ce que 当宾语</li><li>le temps qu’il a perdu ne se retrouve jamais</li><li>une saison</li><li>faire attention à</li><li>aucun #指人</li><li>se mettre à plusieurs  #几个人一起干</li><li>n’importe où  #无论什么地方</li><li>quelqu’un de compétent  #形容词修饰指示代词要加 de </li><li>une personne compétente</li><li>dans chacune des fermes #chacun,e 是指示代词   chaque fois  #chaque 是形容词</li></ol><h1 id="2021-12-29"><a href="#2021-12-29" class="headerlink" title="2021 12 29"></a>2021 12 29</h1><h2 id="adverbes"><a href="#adverbes" class="headerlink" title="adverbes"></a>adverbes</h2><ol><li>Je veux <strong>bien</strong> faire une randonnée à vélo mais il faudra rouler lentement pour que nous puissions profiter du paysage.</li><li>mal mauvais</li><li>hapide vite</li><li>léopard  非洲豹  </li><li>Je suis d’accord avec toi. En revanche, je ne suis pas d’accord avec Paul.</li><li>Nous avons marché toute la matinée puis nous nous sommes arrêtés pour pique-niquer.</li><li>Mes voisins m’ont certes recommandé de rester chez moi aux heures chaudes, je dois pourtant sortir pour aller à la bibliothèque.</li></ol><h2 id="preposition"><a href="#preposition" class="headerlink" title="préposition"></a>préposition</h2><ol><li>près de - loin de</li><li>après - avant</li><li>avant 时间 - devant 地点</li><li>D’après la météo, il fera beau la semaine prochaine.（根据天气预报）</li></ol><h2 id="test-2"><a href="#test-2" class="headerlink" title="test 2"></a>test 2</h2><ol><li>compter sur qn </li><li>compter avec qn </li><li>pour + 一段时间</li><li>à + 时间点</li><li>dans dix minutes #十分钟后</li><li>même s’  哪怕</li><li>quoique 尽管</li><li>Avant de signer, lisez bien <strong>ce qui</strong> est écrit sue le contrat.<br><em>#ce qui 作 est écrit 的主语，判断的标准是看是不是后面接的句子的主语，而不是看整个句子的主语</em></li><li> songer à 想什么，思念什么</li><li><strong>en apprenant que</strong>（知道） l’équipe de France avait gagné, il a sauté de joie.<br><em>#de 表示原因</em></li><li>trop pour 太 以至于</li><li>etre responsable de 对  有责任</li><li>pourtant je <strong>le leur</strong> （先直接后间接）ai déjà expliqué dix fois #j’ai deja explique cettes questions à les étudiants</li><li>il fait <strong>un</strong> temps bizzare #有形容词修饰 temps，用不定冠词</li><li>la famille a passé <strong>d’excellentes vacances</strong> au bord de la mer<ol><li> vacance 空缺 vacances 假期</li><li> vacances 有 excellentes 修饰，用不定冠词 des</li><li> 当不定冠词直接在形容词之前，将 des 改成 de</li></ol></li><li>bijou - bijoux</li><li>beau - beaux</li><li>l’histoire a de quoi vous étonner<br>#avoir de quoi faire 有足够的的东西来</li><li>les chiens <strong>dont</strong> il a le plus peur<br>#il a le plus peur des les chiens</li><li><strong>rends-le-moi</strong> demain matin sans faute<br>#肯定命令句中 le moi y en</li><li><strong>toute</strong> jeune fille a rêvé du prince<br>#tout/toute + 单数 : 任何</li></ol><h1 id="test-3"><a href="#test-3" class="headerlink" title="test 3"></a>test 3</h1><ol><li>comme tel<br>#像这样</li><li>telle chose<br>#这样的事情</li><li>ses parents lui font pratiquer régulièrement du sport<br><em>#faire faire qch à qn 让某人做某事</em></li><li>tout heureuses</li><li>aucun 的用法<ol><li>ne/sans aucun 没有一个的</li><li>任何 </li></ol></li><li>quelconque – n’importe quel</li><li>beaucoup 的同等比较级 autant que</li><li>se faire sentir 使自己感到  se sentir 自己感到</li><li> faute de quoi</li><li>etre fier de 自豪</li><li>quelque chose de drôle<br><em>#泛指代词和形容词之间用 de 链接</em></li><li>etre + 序数词 + à + inf<br>#第几个做</li></ol><h1 id="test-4"><a href="#test-4" class="headerlink" title="test 4 "></a>test 4 </h1><ol><li><p>punir  pour mentir</p></li><li><p>voir qn faire(inf.) qqch</p></li><li><p>si le temp est bon, on mengera sur la terrasse</p></li><li><p>bien - mieux  |  bon meilleur</p></li><li><p>souhaiter qqch à qn</p></li><li><p>c’est que/qui<br><em>强调句式</em></p></li><li><p>re rendre au rendez-vous   赴约</p></li><li><p>la fille à qui je me suis adressé est très belle</p></li><li><p>veux-tu <strong>un</strong> café<br> non, je n’<strong>en</strong> prends pas</p><p> veux-tu <strong>le</strong>  café<br> non, je ne <strong>le</strong> prends pas</p></li><li><p>il parraît que 直陈式（表事实）/虚拟式（表推测）  看似。。。</p></li><li><p>désigner qn comme 挑选某人为。。</p></li><li><p>il interroge Valerie sur son intentions<br><em>interroger qn sur qqch 向某人询问某事</em></p></li><li><p>personne 接形容词要加 de</p></li><li><p>souhaiter faire qqch</p></li></ol><h1 id="test5"><a href="#test5" class="headerlink" title="test5"></a>test5</h1><ol><li>Le Général de Gaulle  <em>戴高乐</em></li><li>penser à qn<br><em>qn不用间接宾语，直接用重读人称</em></li><li>appartenir à qn<br><em>属于某人</em></li><li>sévère –  indulgents</li><li>grippe</li><li>faire à qcn<br>习惯于某事</li><li>mordre 咬</li><li>se souvenir de qch</li><li>me le lui y en<br> 除肯定命令式中</li><li>le moi y en<br>肯定命令式中</li><li>代词顺序<br><img src="./%E4%BB%A3%E8%AF%8D%E9%A1%BA%E5%BA%8F.jpeg" alt="代词顺序"></li><li>on lui <strong>avait déjà expliqué</strong> qu’il ne <strong>pourrait</strong> revenir au collège qu’avec des cheveux courts<br><em>pourrait条件式现在时表示过去将来</em></li><li>comme si + imparfait </li><li>c’est le meilleur chanteur que je <strong>connaisse</strong><br><em>最高级表示主观，用connaisse虚拟式</em></li></ol><h1 id="test-6"><a href="#test-6" class="headerlink" title="test 6"></a>test 6</h1>]]></content>
     
     
       
