@@ -6,7 +6,7 @@
   <link href="http://littlewuuu.com/atom.xml" rel="self"/>
   
   <link href="http://littlewuuu.com/"/>
-  <updated>2022-01-27T17:10:12.464Z</updated>
+  <updated>2022-01-28T23:01:27.532Z</updated>
   <id>http://littlewuuu.com/</id>
   
   <author>
@@ -17,9 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算法</title>
+    <link href="http://littlewuuu.com/2022/01/28/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/"/>
+    <id>http://littlewuuu.com/2022/01/28/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95/</id>
+    <published>2022-01-27T23:00:00.000Z</published>
+    <updated>2022-01-28T23:01:27.532Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a><a href="git@github.com:littlewuuu/alg.git">算法</a></h1><h3 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h3><h3 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h3><h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><h3 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;算法&quot;&gt;&lt;a href=&quot;#算法&quot; class=&quot;headerlink&quot; title=&quot;算法&quot;&gt;&lt;/a&gt;&lt;a href=&quot;git@github.com:littlewuuu/alg.git&quot;&gt;算法&lt;/a&gt;&lt;/h1&gt;&lt;h3 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot;</summary>
+      
+    
+    
+    
+    <category term="skills" scheme="http://littlewuuu.com/categories/skills/"/>
+    
+    
+    <category term="有点难学的" scheme="http://littlewuuu.com/tags/%E6%9C%89%E7%82%B9%E9%9A%BE%E5%AD%A6%E7%9A%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>SSTEM</title>
-    <link href="http://littlewuuu.com/2022/01/27/SSTEM/"/>
-    <id>http://littlewuuu.com/2022/01/27/SSTEM/</id>
+    <link href="http://littlewuuu.com/2022/01/27/SSTEM/SSTEM/"/>
+    <id>http://littlewuuu.com/2022/01/27/SSTEM/SSTEM/</id>
     <published>2022-01-26T23:00:00.000Z</published>
     <updated>2022-01-27T17:10:12.464Z</updated>
     
@@ -92,8 +116,8 @@
   
   <entry>
     <title>张某人的美食</title>
-    <link href="http://littlewuuu.com/2021/12/31/%E6%95%B4%E6%B4%BB%E2%80%94%E5%BC%A0%E6%96%87%E5%88%A9%E7%9A%84%E8%8F%9C/"/>
-    <id>http://littlewuuu.com/2021/12/31/%E6%95%B4%E6%B4%BB%E2%80%94%E5%BC%A0%E6%96%87%E5%88%A9%E7%9A%84%E8%8F%9C/</id>
+    <link href="http://littlewuuu.com/2021/12/31/%E6%95%B4%E6%B4%BB/%E6%95%B4%E6%B4%BB%E2%80%94%E5%BC%A0%E6%96%87%E5%88%A9%E7%9A%84%E8%8F%9C/"/>
+    <id>http://littlewuuu.com/2021/12/31/%E6%95%B4%E6%B4%BB/%E6%95%B4%E6%B4%BB%E2%80%94%E5%BC%A0%E6%96%87%E5%88%A9%E7%9A%84%E8%8F%9C/</id>
     <published>2021-12-30T23:00:00.000Z</published>
     <updated>2022-01-23T08:29:25.525Z</updated>
     
@@ -116,24 +140,19 @@
   </entry>
   
   <entry>
-    <title>教会自己用 git</title>
-    <link href="http://littlewuuu.com/2021/12/30/git_usage1/"/>
-    <id>http://littlewuuu.com/2021/12/30/git_usage1/</id>
+    <title>markdown 没学明白指南</title>
+    <link href="http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-30T21:55:38.456Z</updated>
+    <updated>2022-01-22T13:52:57.242Z</updated>
     
-    <content type="html"><![CDATA[<p>#实现本地文件和 Github 仓库同步<br>##Macbook Air M1 </p><ol><li>ssh 等配置</li><li>在 GitHub 上创建仓库</li><li>准备好本地的文件存放位置</li><li>切换终端目录到本地文件夹</li><li>初始化本地文件夹<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></li><li>连接到 GitHub 仓库 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库网址（注意是 ssh 不是 url）</span><br></pre></td></tr></table></figure></li><li>切换 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -M main</span><br></pre></td></tr></table></figure></li><li> 把想要上传的文件拖放到本地文件夹</li><li>上传<ol><li>将文件送到缓区<ol><li>部分文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add . //把本地文件夹的所有内容送到缓存区</span><br></pre></td></tr></table></figure></li><li>所有文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add filename //把指定的文件送到缓存区</span><br></pre></td></tr></table></figure></li></ol></li><li>commit<br>必须要有这一步，如果是全部文件到缓存区，则所有的文件都是这个注释，如果是指定文件到缓存区，则对指定文件注释<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Git commit -m “注释”  </span><br></pre></td></tr></table></figure></li><li>上传<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main  </span><br></pre></td></tr></table></figure></li></ol></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>#1. 一级标题</p><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><p>这是正文<br>同一段</p><p>另外一段<br>##文字相关</p><pre><code>***斜体加粗*** </code></pre><p><del>删除线</del></p><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p></blockquote></blockquote></blockquote><hr><p>分割线</p><hr><p><strong>加粗了</strong><br>也可以使用 command+b 来加粗</p><p><em>斜体</em><br>也可以使用 command+i 来斜体</p><pre><code>1.第一个2.第二个3.第三个</code></pre><p>##插入图片<br><img src="%E6%88%AA%E5%B1%8F2021-12-09%2003.09.32.png" alt="这是我" title="wuzilp"><br><em>这是我</em></p><p>##输入 LaTeX 公式<br>enter latex between these two 美元符号<br>$$<br>enter latex between these two<br>$$</p><p>command + m 连续按两下，出现四个$<br>command + m 出现两个$<br>在一段句子中插入公式$ sin (x) $</p><p>##表格<br>|    姓名 | 学号       |<br>| ——-:| :——— | :——–: | —- |<br>| wuzilong | 2019110473 | 计算机一班 |</p><p>##插入链接<br>复制链接，然后选中想要添加链接的文字，command+v，就可以自动添加了，这是一个<a href="https://www.bilibili.com/video/BV1si4y1472o?from=search&seid=1855512916546594836&spm_id_from=333.337.0.0">链接</a></p><p>##code</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> main(void)</span><br><span class="line">美式键盘下打出这三个小撇</span><br></pre></td></tr></table></figure><p><img src="%E6%B3%95%E8%AF%AD%E9%94%AE%E7%9B%98.jpeg"></p><p>##超链接<br><a href="http://littlewuu/">微博</a><br><em>Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</em></p><p><a href="超链接地址" target="_blank">超链接名</a></p><p>示例<br><a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a></p><p>##列表<br>###无序列表</p><ul><li>“-”可以表示列表</li></ul><ul><li>“+”也可以</li></ul><ul><li>“*”也可以<br>###有序列表</li></ul><ol><li>第一个<ol><li>第二个,可以用 tab 键来实现不同级别</li></ol></li><li>第三个</li></ol><p><em>序号和后面的内容要有空格</em></p><p>##流程图</p><pre><code class="flow">st=&gt;start: 开始op=&gt;operation: 选择cond=&gt;condition: Yes or No?e=&gt;end: endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;#实现本地文件和 Github 仓库同步&lt;br&gt;##Macbook Air M1 &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;ssh 等配置&lt;/li&gt;
-&lt;li&gt;在 GitHub 上创建仓库&lt;/li&gt;
-&lt;li&gt;准备好本地的文件存放位置&lt;/li&gt;
-&lt;li&gt;切换终端目录到本地文件夹&lt;/li&gt;
-&lt;</summary>
+    <summary type="html">&lt;p&gt;#1. 一级标题&lt;/p&gt;
+&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot; title=&quot;二级&quot;&gt;&lt;/a&gt;二级&lt;/h2&gt;&lt;h3 id=&quot;三级&quot;&gt;&lt;a href=&quot;#三级&quot; class=&quot;headerlink&quot; title=&quot;三级&quot;&gt;&lt;</summary>
       
     
     
@@ -171,43 +190,24 @@
   </entry>
   
   <entry>
-    <title>conditionnel</title>
-    <link href="http://littlewuuu.com/2021/12/30/francaise/conditionnel/"/>
-    <id>http://littlewuuu.com/2021/12/30/francaise/conditionnel/</id>
+    <title>教会自己用 git</title>
+    <link href="http://littlewuuu.com/2021/12/30/git/git_usage1/"/>
+    <id>http://littlewuuu.com/2021/12/30/git/git_usage1/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-31T19:14:47.046Z</updated>
+    <updated>2021-12-30T21:55:38.456Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel présent&lt;/h1&gt;&lt;</summary>
-      
-    
-    
-    
-    <category term="le français" scheme="http://littlewuuu.com/categories/le-francais/"/>
-    
-    
-    <category term="le français" scheme="http://littlewuuu.com/tags/le-francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown 没学明白指南</title>
-    <link href="http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
-    <id>http://littlewuuu.com/2021/12/30/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</id>
-    <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2022-01-22T13:52:57.242Z</updated>
-    
-    <content type="html"><![CDATA[<p>#1. 一级标题</p><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><p>这是正文<br>同一段</p><p>另外一段<br>##文字相关</p><pre><code>***斜体加粗*** </code></pre><p><del>删除线</del></p><blockquote><p>引用1</p><blockquote><p>引用2</p><blockquote><p>引用3</p></blockquote></blockquote></blockquote><hr><p>分割线</p><hr><p><strong>加粗了</strong><br>也可以使用 command+b 来加粗</p><p><em>斜体</em><br>也可以使用 command+i 来斜体</p><pre><code>1.第一个2.第二个3.第三个</code></pre><p>##插入图片<br><img src="%E6%88%AA%E5%B1%8F2021-12-09%2003.09.32.png" alt="这是我" title="wuzilp"><br><em>这是我</em></p><p>##输入 LaTeX 公式<br>enter latex between these two 美元符号<br>$$<br>enter latex between these two<br>$$</p><p>command + m 连续按两下，出现四个$<br>command + m 出现两个$<br>在一段句子中插入公式$ sin (x) $</p><p>##表格<br>|    姓名 | 学号       |<br>| ——-:| :——— | :——–: | —- |<br>| wuzilong | 2019110473 | 计算机一班 |</p><p>##插入链接<br>复制链接，然后选中想要添加链接的文字，command+v，就可以自动添加了，这是一个<a href="https://www.bilibili.com/video/BV1si4y1472o?from=search&seid=1855512916546594836&spm_id_from=333.337.0.0">链接</a></p><p>##code</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">int</span> main(void)</span><br><span class="line">美式键盘下打出这三个小撇</span><br></pre></td></tr></table></figure><p><img src="%E6%B3%95%E8%AF%AD%E9%94%AE%E7%9B%98.jpeg"></p><p>##超链接<br><a href="http://littlewuu/">微博</a><br><em>Markdown本身语法不支持链接在新页面中打开，貌似简书做了处理，是可以的。别的平台可能就不行了，如果想要在新页面中打开的话可以用html语言的a标签代替。</em></p><p><a href="超链接地址" target="_blank">超链接名</a></p><p>示例<br><a href="https://www.jianshu.com/u/1f5ac0cf6a8b" target="_blank">简书</a></p><p>##列表<br>###无序列表</p><ul><li>“-”可以表示列表</li></ul><ul><li>“+”也可以</li></ul><ul><li>“*”也可以<br>###有序列表</li></ul><ol><li>第一个<ol><li>第二个,可以用 tab 键来实现不同级别</li></ol></li><li>第三个</li></ol><p><em>序号和后面的内容要有空格</em></p><p>##流程图</p><pre><code class="flow">st=&gt;start: 开始op=&gt;operation: 选择cond=&gt;condition: Yes or No?e=&gt;end: endst-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;op</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>#实现本地文件和 Github 仓库同步<br>##Macbook Air M1 </p><ol><li>ssh 等配置</li><li>在 GitHub 上创建仓库</li><li>准备好本地的文件存放位置</li><li>切换终端目录到本地文件夹</li><li>初始化本地文件夹<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></li><li>连接到 GitHub 仓库 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库网址（注意是 ssh 不是 url）</span><br></pre></td></tr></table></figure></li><li>切换 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -M main</span><br></pre></td></tr></table></figure></li><li> 把想要上传的文件拖放到本地文件夹</li><li>上传<ol><li>将文件送到缓区<ol><li>部分文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add . //把本地文件夹的所有内容送到缓存区</span><br></pre></td></tr></table></figure></li><li>所有文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add filename //把指定的文件送到缓存区</span><br></pre></td></tr></table></figure></li></ol></li><li>commit<br>必须要有这一步，如果是全部文件到缓存区，则所有的文件都是这个注释，如果是指定文件到缓存区，则对指定文件注释<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Git commit -m “注释”  </span><br></pre></td></tr></table></figure></li><li>上传<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main  </span><br></pre></td></tr></table></figure></li></ol></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;#1. 一级标题&lt;/p&gt;
-&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot; title=&quot;二级&quot;&gt;&lt;/a&gt;二级&lt;/h2&gt;&lt;h3 id=&quot;三级&quot;&gt;&lt;a href=&quot;#三级&quot; class=&quot;headerlink&quot; title=&quot;三级&quot;&gt;&lt;</summary>
+    <summary type="html">&lt;p&gt;#实现本地文件和 Github 仓库同步&lt;br&gt;##Macbook Air M1 &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;ssh 等配置&lt;/li&gt;
+&lt;li&gt;在 GitHub 上创建仓库&lt;/li&gt;
+&lt;li&gt;准备好本地的文件存放位置&lt;/li&gt;
+&lt;li&gt;切换终端目录到本地文件夹&lt;/li&gt;
+&lt;</summary>
       
     
     
@@ -241,6 +241,30 @@
     
     
     <category term="到处跑" scheme="http://littlewuuu.com/tags/%E5%88%B0%E5%A4%84%E8%B7%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>conditionnel</title>
+    <link href="http://littlewuuu.com/2021/12/30/francaise/conditionnel/"/>
+    <id>http://littlewuuu.com/2021/12/30/francaise/conditionnel/</id>
+    <published>2021-12-29T23:00:00.000Z</published>
+    <updated>2021-12-31T19:14:47.046Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="conditionnel-present"><a href="#conditionnel-present" class="headerlink" title="conditionnel présent"></a>conditionnel présent</h1><h2 id="组成"><a href="#组成" class="headerlink" title="组成"></a>组成</h2><p>简单将来词干+未完成过去词尾</p><ol><li>avoir</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">j’aurais</td><td align="center">nous aurions</td></tr><tr><td align="center">第二人称</td><td align="center">tu aurais</td><td align="center">vous auriez</td></tr><tr><td align="center">第三人称</td><td align="center">il aurait</td><td align="center">ils auraient</td></tr></tbody></table><ol start="2"><li>être</li></ol><table><thead><tr><th align="center"></th><th align="center">单数</th><th align="center">复数</th></tr></thead><tbody><tr><td align="center">第一人称</td><td align="center">je serais</td><td align="center">nous serions</td></tr><tr><td align="center">第二人称</td><td align="center">tu serais</td><td align="center">vous seriez</td></tr><tr><td align="center">第三人称</td><td align="center">il serait</td><td align="center">ils seraient</td></tr><tr><td align="center">用法</td><td align="center"></td><td align="center"></td></tr></tbody></table><hr><ol><li>表示委婉请求建议<ol><li>Tu devrais faire plus d’attention au temps．(委婉建议)</li><li>Il y aurait plus de possibilités de réussir．(表推测，不能肯定)</li><li>Je voudrais aller en France dans un an．(表示愿望)</li><li>Marie viendrait chercher ses enfants demain. 玛丽也许明天会来接她的孩子。</li></ol></li></ol><ol start="2"><li><p>表示与实际情况相反<br> Si elle était riche，elle voudrait acheter un chateau．(她如果富有的话，她想买一个城堡。）</p></li><li><p>表示将来可能发生的情况</p><ol><li>S’il pleuvait demain，ma copine et moi resteraient à la maison</li></ol></li><li><p>如果动作实现的可能性极大，主句也可以用直陈式简单将来时，从句用直陈式现在时。试比较：</p><ol><li>S’il fait beau demain, on ira au bord de la mer. （如果明天天气好，我们就去海边。）</li></ol><p> <em>根据现在的迹象表明明天的天气很可能会很好，我们去海边的可能性很大。</em></p><ol start="2"><li>S’il faisait beau demain, on irait au bord de la mer.（如果明天天气好，我们就去海边。）</li></ol><p> <em>但是根据现在的迹象表明很有可能明天天气不好，我们去海边的可能性很小。</em> </p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;conditionnel-present&quot;&gt;&lt;a href=&quot;#conditionnel-present&quot; class=&quot;headerlink&quot; title=&quot;conditionnel présent&quot;&gt;&lt;/a&gt;conditionnel présent&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="le français" scheme="http://littlewuuu.com/categories/le-francais/"/>
+    
+    
+    <category term="le français" scheme="http://littlewuuu.com/tags/le-francais/"/>
     
   </entry>
   
