@@ -25,11 +25,15 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="MATLAB命令行窗口 清屏 “clc” 清除 workspace 中的所有变量变量  编辑器 调出编辑器：新建-&gt;脚本 注释 %+空格（一个%两个%有区别）变量命名规则 区分大小写 变量名以字母开头，可以由字母、数字、下划线组成  数据类型 数字 “+”  “-“ “*” “&#x2F;“    字符和字符串 也有 ASCII 码 length( ) 求长度，空格也占   矩阵 1234567891">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.imgur.com/XqFD33s.png">
+<meta property="og:image" content="https://i.imgur.com/MoxgGVc.png">
+<meta property="og:image" content="https://i.imgur.com/1ftwm3h.png">
 <meta property="article:published_time" content="2022-01-28T23:00:00.000Z">
-<meta property="article:modified_time" content="2022-01-31T22:30:58.417Z">
+<meta property="article:modified_time" content="2022-02-02T09:01:56.847Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="有点难学的">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/XqFD33s.png">
   <!-- Canonical links -->
   <link rel="canonical" href="http://littlewuuu.com/2022/01/29/MATLAB/%E5%85%A5%E9%97%A8/index.html">
   
@@ -261,10 +265,10 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/29/MATLAB/%E5%85%A5%E9%97%A8/#comments" class="article-comment-link">Comments</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 616(words)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 901(words)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2(minutes)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4(minutes)</span>
 	
 
       </div>
@@ -299,6 +303,35 @@
 
 <h3 id="矩阵的下标"><a href="#矩阵的下标" class="headerlink" title="矩阵的下标"></a>矩阵的下标</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">A = <span class="built_in">magic</span>(<span class="number">5</span>) <span class="comment">%生成 5 阶幻方矩阵</span></span><br><span class="line">B = A(<span class="number">2</span>,<span class="number">3</span>) <span class="comment">%取出 2 行 3 列的元素</span></span><br><span class="line">C = A(<span class="number">3</span>,:) <span class="comment">%取出第三行</span></span><br><span class="line">D = A(:,<span class="number">4</span>) <span class="comment">%取出第四列</span></span><br><span class="line">[m,n] = <span class="built_in">find</span>(A &gt; <span class="number">20</span>) <span class="comment">%找出 A 矩阵中大于二十的元素，返回下标到 m,n</span></span><br><span class="line">    例如:A = [<span class="number">1</span> <span class="number">2</span> <span class="number">3</span> <span class="number">4</span> <span class="number">5</span>]</span><br><span class="line">        [m,n] = <span class="built_in">find</span>(A &gt; <span class="number">2</span>)</span><br></pre></td></tr></table></figure>
 
+
+<h3 id="逻辑与程序结构"><a href="#逻辑与程序结构" class="headerlink" title="逻辑与程序结构"></a>逻辑与程序结构</h3><p>for循环</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> 循环变量 = 初值 : 步长 : 终值</span><br><span class="line">    执行语句</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+
+<p>while循环</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> 条件表达式</span><br><span class="line">    执行语句</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+
+<p>分支结构</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 条件表达式</span><br><span class="line">    执行语句</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 表达式</span><br><span class="line">    执行语句 <span class="number">1</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    执行语句 <span class="number">2</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span> 表达式（数值或字符串你）</span><br><span class="line">    <span class="keyword">case</span> 数值或字符串 <span class="number">1</span></span><br><span class="line">        语句 <span class="number">1</span></span><br><span class="line">    <span class="keyword">case</span> 数值或字符串 <span class="number">2</span></span><br><span class="line">        语句 <span class="number">2</span></span><br><span class="line">    ...</span><br><span class="line">    <span class="keyword">otherwise</span></span><br><span class="line">        语句 n</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="绘图（二维平面）"><a href="#绘图（二维平面）" class="headerlink" title="绘图（二维平面）"></a>绘图（二维平面）</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">0</span>:<span class="number">0.01</span>:<span class="number">2</span>*<span class="built_in">pi</span>;</span><br><span class="line">y = <span class="built_in">sin</span>(x);</span><br><span class="line"></span><br><span class="line"><span class="built_in">figure</span> <span class="comment">%建立空白幕布</span></span><br><span class="line"><span class="built_in">plot</span>(x,y)</span><br><span class="line">title(<span class="string">&#x27;y = sin(x)&#x27;</span>)</span><br><span class="line">xlabel(<span class="string">&#x27;x&#x27;</span>)</span><br><span class="line">ylabel(<span class="string">&#x27;sin(x)&#x27;</span>)</span><br><span class="line">xlim([<span class="number">0</span> <span class="number">2</span>*<span class="built_in">pi</span>]) <span class="comment">%限定图表显示的 x 的范围</span></span><br></pre></td></tr></table></figure>
+<center class="half">
+<img src="https://i.imgur.com/XqFD33s.png" width=90%/> 
+</center>
+
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">0</span>:<span class="number">0.01</span>:<span class="number">20</span>;</span><br><span class="line">y1 = <span class="number">200</span>*<span class="built_in">exp</span>(<span class="number">-0.05</span>*x).*<span class="built_in">sin</span>(x)</span><br><span class="line">y2 = <span class="number">0.8</span>*<span class="built_in">exp</span>(<span class="number">-0.5</span>*x).*<span class="built_in">sin</span>(<span class="number">10</span>*x)</span><br><span class="line"><span class="built_in">figure</span></span><br><span class="line">[AX,H1,H2] = plotyy(x,y1,x,y2,<span class="string">&#x27;plot&#x27;</span>);</span><br><span class="line">set(get(AX(<span class="number">1</span>),<span class="string">&#x27;Ylabel&#x27;</span>),<span class="string">&#x27;string&#x27;</span>,<span class="string">&#x27;Slow Decay&#x27;</span>)</span><br><span class="line">set(get(AX(<span class="number">2</span>),<span class="string">&#x27;Ylabel&#x27;</span>),<span class="string">&#x27;string&#x27;</span>,<span class="string">&#x27;Fast Decay&#x27;</span>)</span><br><span class="line">xlabel(<span class="string">&#x27;Time (\musec)&#x27;</span>)</span><br><span class="line">title(<span class="string">&#x27;Multiple Decay Rates&#x27;</span>)</span><br><span class="line">set(H1,<span class="string">&#x27;Linestyle&#x27;</span>,<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line">set(H2,<span class="string">&#x27;Linestyle&#x27;</span>,<span class="string">&#x27;:&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<center class="half">
+<img src="https://i.imgur.com/MoxgGVc.png" width=90%/> 
+</center>
+
+<h3 id="绘图（三维绘图）"><a href="#绘图（三维绘图）" class="headerlink" title="绘图（三维绘图）"></a>绘图（三维绘图）</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">t = <span class="number">0</span>:<span class="built_in">pi</span>/<span class="number">50</span>:<span class="number">10</span>*<span class="built_in">pi</span></span><br><span class="line"><span class="built_in">plot3</span>(<span class="built_in">sin</span>(t),<span class="built_in">cos</span>(t),t)</span><br><span class="line">xlabel(<span class="string">&#x27;sin(t)&#x27;</span>)</span><br><span class="line">xlabel(<span class="string">&#x27;cos(t)&#x27;</span>)</span><br><span class="line">xlabel(<span class="string">&#x27;t&#x27;</span>)</span><br><span class="line">grid on</span><br><span class="line">axis square</span><br></pre></td></tr></table></figure>
+<center class="half">
+<img src="https://i.imgur.com/1ftwm3h.png" width=60%/> 
+</center>
+
+<h3 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h3>
       
     </div>
     <div class="article-footer">
