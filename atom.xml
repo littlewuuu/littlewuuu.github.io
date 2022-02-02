@@ -260,7 +260,7 @@
     <link href="http://littlewuuu.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/"/>
     <id>http://littlewuuu.com/2021/12/30/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2022-01-23T08:33:42.649Z</updated>
+    <updated>2022-02-02T17:31:18.405Z</updated>
     
     <content type="html"><![CDATA[<h1 id="还没开始学"><a href="#还没开始学" class="headerlink" title="还没开始学 :("></a>还没开始学 :(</h1><p>开始学了，学了视角变换，投影，透视，光栅化。</p>]]></content>
     
@@ -285,7 +285,7 @@
     <link href="http://littlewuuu.com/2021/12/30/Git/git_usage1/"/>
     <id>http://littlewuuu.com/2021/12/30/Git/git_usage1/</id>
     <published>2021-12-29T23:00:00.000Z</published>
-    <updated>2021-12-30T21:55:38.456Z</updated>
+    <updated>2022-02-02T17:56:21.780Z</updated>
     
     <content type="html"><![CDATA[<p>#实现本地文件和 Github 仓库同步<br>##Macbook Air M1 </p><ol><li>ssh 等配置</li><li>在 GitHub 上创建仓库</li><li>准备好本地的文件存放位置</li><li>切换终端目录到本地文件夹</li><li>初始化本地文件夹<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></li><li>连接到 GitHub 仓库 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库网址（注意是 ssh 不是 url）</span><br></pre></td></tr></table></figure></li><li>切换 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -M main</span><br></pre></td></tr></table></figure></li><li> 把想要上传的文件拖放到本地文件夹</li><li>上传<ol><li>将文件送到缓区<ol><li>部分文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add . //把本地文件夹的所有内容送到缓存区</span><br></pre></td></tr></table></figure></li><li>所有文件<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add filename //把指定的文件送到缓存区</span><br></pre></td></tr></table></figure></li></ol></li><li>commit<br>必须要有这一步，如果是全部文件到缓存区，则所有的文件都是这个注释，如果是指定文件到缓存区，则对指定文件注释<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Git commit -m “注释”  </span><br></pre></td></tr></table></figure></li><li>上传<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main  </span><br></pre></td></tr></table></figure></li></ol></li></ol>]]></content>
     
