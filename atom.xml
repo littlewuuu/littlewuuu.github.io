@@ -6,7 +6,7 @@
   <link href="http://littlewuuu.com/atom.xml" rel="self"/>
   
   <link href="http://littlewuuu.com/"/>
-  <updated>2022-02-03T11:04:12.546Z</updated>
+  <updated>2022-02-03T11:09:28.470Z</updated>
   <id>http://littlewuuu.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://littlewuuu.com/2022/02/03/CCUBE/CCUBE/"/>
-    <id>http://littlewuuu.com/2022/02/03/CCUBE/CCUBE/</id>
-    <published>2022-02-03T10:39:47.577Z</published>
-    <updated>2022-02-03T11:04:12.546Z</updated>
+    <title>CCUBE</title>
+    <link href="http://littlewuuu.com/2022/02/02/CCUBE/CCUBE/"/>
+    <id>http://littlewuuu.com/2022/02/02/CCUBE/CCUBE/</id>
+    <published>2022-02-01T23:00:00.000Z</published>
+    <updated>2022-02-03T11:09:28.470Z</updated>
     
     <content type="html"><![CDATA[<h1 id="CCUBE"><a href="#CCUBE" class="headerlink" title="CCUBE"></a>CCUBE</h1><h2 id="Sequence-1-signaux-et-systemes"><a href="#Sequence-1-signaux-et-systemes" class="headerlink" title="Séquence 1: signaux et systèmes"></a>Séquence 1: signaux et systèmes</h2><h3 id="Chapitre-1-Concepts-et-outils-fondamentaux"><a href="#Chapitre-1-Concepts-et-outils-fondamentaux" class="headerlink" title="Chapitre 1: Concepts et outils fondamentaux"></a>Chapitre 1: Concepts et outils fondamentaux</h3><h4 id="1-1-Temps-continu-temps-discret"><a href="#1-1-Temps-continu-temps-discret" class="headerlink" title="1.1 Temps continu, temps discret"></a>1.1 Temps continu, temps discret</h4><h4 id="1-2-Voyage-dans-le-temps"><a href="#1-2-Voyage-dans-le-temps" class="headerlink" title="1.2 Voyage dans le temps"></a><strong>1.2 Voyage dans le temps</strong></h4><p>Le signal <strong>renversé</strong> (ou <strong>retourné</strong>, ou <strong>réflflechi</strong>) temporellement</p><p>Le signal <strong>translaté</strong> (ou <strong>décalé</strong>) temporellement</p><p>Le <strong>changement d’échelle</strong> de temps</p><blockquote><ol><li><p><strong>En temps continu</strong></p></li><li><p><strong>En temps discret</strong></p><ol><li><strong>l’interpolation</strong></li><li>la <strong>décimation</strong></li></ol></li></ol></blockquote><h4 id="1-3-Fonctions-et-suites-elementaires"><a href="#1-3-Fonctions-et-suites-elementaires" class="headerlink" title="1.3 Fonctions et suites élémentaires"></a><strong>1.3 Fonctions et suites élémentaires</strong></h4><p>Constante unité</p><p>Echelon</p><p>Rampe</p><p>Fenêtre rectangulaire</p><p>Fenêtre triangulaire</p><h4 id="1-4-Impulsion-et-peigne-impulsionnel"><a href="#1-4-Impulsion-et-peigne-impulsionnel" class="headerlink" title="1.4 Impulsion et peigne impulsionnel"></a><strong>1.4 Impulsion et peigne impulsionnel</strong></h4><p> La fonction de <strong>Gauss</strong></p><p>Les impulsions de <strong>Dirac</strong> et de <strong>Kronecker</strong></p><p>Le <strong>peigne de Dirac</strong> et le <strong>peigne de Kronecker</strong></p><h4 id="1-5-Convolution"><a href="#1-5-Convolution" class="headerlink" title="1.5 Convolution"></a><strong>1.5 Convolution</strong></h4><h4 id="1-6-Causalite-anticausalite"><a href="#1-6-Causalite-anticausalite" class="headerlink" title="1.6 Causalité, anticausalité"></a><strong>1.6 Causalité, anticausalité</strong></h4><h4 id="1-7-Sinus-cardinal-noyau-de-Dirichlet"><a href="#1-7-Sinus-cardinal-noyau-de-Dirichlet" class="headerlink" title="1.7 Sinus cardinal, noyau de Dirichlet"></a><strong>1.7 Sinus cardinal, noyau de Dirichlet</strong></h4><p>Sinus cardinal</p><p>Noyau de Dirichle</p><h4 id="1-8-Quatre-formules-fondamentales"><a href="#1-8-Quatre-formules-fondamentales" class="headerlink" title="1.8 Quatre formules fondamentales"></a><strong>1.8 Quatre formules fondamentales</strong></h4><h3 id="Chapitre-2-Signaux-les-voir-autrement"><a href="#Chapitre-2-Signaux-les-voir-autrement" class="headerlink" title="Chapitre 2 Signaux : les voir autrement"></a>Chapitre 2 Signaux : les voir autrement</h3><h4 id="2-1-Un-signal-fondamental-la-sinusoide-complexe"><a href="#2-1-Un-signal-fondamental-la-sinusoide-complexe" class="headerlink" title="2.1 Un signal fondamental : la sinusoïde complexe"></a><strong>2.1 Un signal fondamental : la sinusoïde complexe</strong></h4><p>La <strong>sinusoïde complexe</strong></p><h4 id="2-2-Transformation-de-Fourier-temps-continu"><a href="#2-2-Transformation-de-Fourier-temps-continu" class="headerlink" title="2.2 Transformation de Fourier (temps continu)"></a><strong>2.2 Transformation de Fourier (temps continu)</strong></h4><p>La <strong>transformée de Fourier</strong> </p><p>La <strong>transformation de Fourier inverse</strong></p><h4 id="2-3-Transformation-de-Laplace-bilatere"><a href="#2-3-Transformation-de-Laplace-bilatere" class="headerlink" title="2.3 Transformation de Laplace bilatère"></a><strong>2.3 Transformation de Laplace bilatère</strong></h4><p>La <strong>transformation de Laplace bilatère</strong> </p><p>Si l’axe imaginaire est dans la bande de convergence, le signal a une transformée de Fourier</p><h4 id="2-4-Transformation-de-Fourier-temps-discret"><a href="#2-4-Transformation-de-Fourier-temps-discret" class="headerlink" title="2.4 Transformation de Fourier (temps discret)"></a><strong>2.4 Transformation de Fourier (temps discret)</strong></h4><p>La <strong>transformée de Fourier</strong></p><p>La <strong>transformation de Fourier inverse</strong></p><h4 id="2-5-Transformation-en-z-bilatere"><a href="#2-5-Transformation-en-z-bilatere" class="headerlink" title="2.5 Transformation en z bilatère"></a><strong>2.5 Transformation en z bilatère</strong></h4>]]></content>
     
@@ -33,6 +33,10 @@
     
     
     
+    <category term="cours" scheme="http://littlewuuu.com/categories/cours/"/>
+    
+    
+    <category term="ECN" scheme="http://littlewuuu.com/tags/ECN/"/>
     
   </entry>
   
