@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://littlewuuu.com/2022/02/06/ENGLISH/SIX%20MINUTES/</loc>
+    
+    <lastmod>2022-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/02/02/CCUBE/CCUBE/</loc>
+    
+    <lastmod>2022-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://littlewuuu.com/2021/02/03/Francaise/%E5%85%AB%E7%99%BE%E7%BB%83/</loc>
     
     <lastmod>2022-02-06</lastmod>
@@ -39,15 +57,6 @@
   
   <url>
     <loc>http://littlewuuu.com/2021/12/31/%E6%95%B4%E6%B4%BB/%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E8%8F%9C/</loc>
-    
-    <lastmod>2022-02-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/02/02/CCUBE/CCUBE/</loc>
     
     <lastmod>2022-02-04</lastmod>
     
@@ -277,6 +286,13 @@
   
   <url>
     <loc>http://littlewuuu.com/tags/%E4%B8%80%E4%BA%9B%E6%AD%A3%E6%AD%A3%E7%BB%8F%E7%BB%8F%E7%9A%84%E5%90%83%E7%9A%84/</loc>
+    <lastmod>2022-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/tags/ENG/</loc>
     <lastmod>2022-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
