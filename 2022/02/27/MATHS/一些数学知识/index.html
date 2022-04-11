@@ -18,15 +18,16 @@
   
   
   <title>MATHS | Bonjour!</title>
-  <meta name="description" content="一些高数1. 梯度、散度、旋度      2. 克莱姆法则   3. 柱坐标    4.欧拉公式$$e^{ix} &#x3D; cosx + isinx$$ 5. 泰勒展开               通常写到第二项就好了     6. 常见函数的泰勒展开  线性代数 $$ A^* 是 A 的 共轭转置矩阵 $$   正定矩阵（positive-definie）是艾尔特米矩阵的一种  当且仅当对于每一个非">
+  <meta name="description" content="一些高数1. 梯度、散度、旋度    拉普拉斯算子是黑塞矩阵的迹 黑塞矩阵 2. 克莱姆法则  3. 柱坐标    4.欧拉公式$$e^{ix} &#x3D; cosx + isinx$$ 5. 泰勒展开               通常写到第二项就好了   6. 常见函数的泰勒展开    7. 多元函数泰勒展开7.1    7.2  一元函数在点处的泰勒展开式为：    二元函数在点处的泰勒展开式为：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MATHS">
 <meta property="og:url" content="http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一些高数1. 梯度、散度、旋度      2. 克莱姆法则   3. 柱坐标    4.欧拉公式$$e^{ix} &#x3D; cosx + isinx$$ 5. 泰勒展开               通常写到第二项就好了     6. 常见函数的泰勒展开  线性代数 $$ A^* 是 A 的 共轭转置矩阵 $$   正定矩阵（positive-definie）是艾尔特米矩阵的一种  当且仅当对于每一个非">
+<meta property="og:description" content="一些高数1. 梯度、散度、旋度    拉普拉斯算子是黑塞矩阵的迹 黑塞矩阵 2. 克莱姆法则  3. 柱坐标    4.欧拉公式$$e^{ix} &#x3D; cosx + isinx$$ 5. 泰勒展开               通常写到第二项就好了   6. 常见函数的泰勒展开    7. 多元函数泰勒展开7.1    7.2  一元函数在点处的泰勒展开式为：    二元函数在点处的泰勒展开式为：">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzspt77792j20u01327d2.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmnvcldnj21dg0ngwlu.jpg">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Library/Application%20Support/typora-user-images/23f4db415be866163432946603c07edbc4a21a41.svg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzspt8jsdoj20ry0ni0ub.jpg">
 <meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Library/Application%20Support/typora-user-images/%E6%88%AA%E5%B1%8F2022-02-09%2022.09.08.png">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz7y9i6wdvj314b0qdgoa.jpg">
@@ -34,10 +35,21 @@
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsptkdfujj214i0s6tbt.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsptnp80pj20we03mjri.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz8rt0z292j30u00umq50.jpg">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/%E6%88%AA%E5%B1%8F2022-04-06%2015.01.33.png">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=x_%7Bk%7D">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h10lpn0nu6j20z002udfw.jpg">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=(x_%7Bk%7D,+y_%7Bk%7D)">
+<meta property="og:image" content="https://pic1.zhimg.com/80/v2-bfbf755daa484a0bc0d8d4e1b2943c94_1440w.jpg">
+<meta property="og:image" content="https://www.zhihu.com/equation?tex=x_%7Bk%7D">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h10lqnuzvkj20yg08egm5.jpg">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/v2-84f1ca33aaebdaae45dd570d3d9b6cef_1440w.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008i3skNgy1gz9m3k8xwaj31oc0fmq81.jpg">
 <meta property="og:image" content="https://wikimedia.org/api/rest_v1/media/math/render/svg/8752c7023b4b3286800fe3238271bbca681219ed">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmdsglndj214w0u0q9c.jpg">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/v2-c7a506f61e7114b7302db5e84ba6fb7c_1440w.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzso72fschj20wa084myj.jpg">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/1203675-20180829172046678-2067287514.png">
+<meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/1203675-20180829172059738-678872282.png">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsnxan7kkj20m80c63zr.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsnxbxwa2j20kx0eegnx.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsotyfdr2j21400leadn.jpg">
@@ -47,8 +59,13 @@
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsovm1sz2j213w0gswhg.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsoveqsodj213q0gswh4.jpg">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmcdhb24j21i10rsq9u.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h0u9n171jbj20u00z1jvt.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h10npw434mj21hc0mc79j.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h10o69mdi1j21in0m0tb6.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-89df8ea24830f5e0ab31e9333a5d413f_1440w.jpg">
+<meta property="og:image" content="https://tva1.sinaimg.cn/large/e6c9d24egy1h10d8s2geqj20me0d80ta.jpg">
 <meta property="article:published_time" content="2022-02-26T23:00:00.000Z">
-<meta property="article:modified_time" content="2022-03-17T22:26:15.686Z">
+<meta property="article:modified_time" content="2022-04-10T09:56:10.013Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="ECN">
 <meta name="twitter:card" content="summary">
@@ -244,7 +261,7 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">Catalogue</h3>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%AB%98%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">一些高数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%A2%AF%E5%BA%A6%E3%80%81%E6%95%A3%E5%BA%A6%E3%80%81%E6%97%8B%E5%BA%A6"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">1. 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99"><span class="toc-number">1.0.0.2.</span> <span class="toc-text">2. 克莱姆法则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9F%B1%E5%9D%90%E6%A0%87"><span class="toc-number">1.0.0.3.</span> <span class="toc-text">3. 柱坐标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.0.0.4.</span> <span class="toc-text">4.欧拉公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.</span> <span class="toc-text">5. 泰勒展开</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.6.</span> <span class="toc-text">6. 常见函数的泰勒展开</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">线性代数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E6%95%B0%E5%92%8C%E8%8C%83%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">条件数和范数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">有限差分法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Jacobi"><span class="toc-number">4.1.</span> <span class="toc-text">1. Jacobi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Gauss-Seidel"><span class="toc-number">4.2.</span> <span class="toc-text">2. Gauss-Seidel</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Relaxation%EF%BC%88%E9%80%90%E6%AC%A1%E8%B6%85%E6%9D%BE%E5%BC%9B-SOR%EF%BC%89"><span class="toc-number">4.3.</span> <span class="toc-text">3. Relaxation（逐次超松弛&#x2F;SOR）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92"><span class="toc-number">5.</span> <span class="toc-text">线性回归</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%97%A0%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%EF%BC%88optimisation-sans-contrainte%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">无约束优化（optimisation sans contrainte）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E7%9B%B4%E6%8E%A5%E6%B3%95"><span class="toc-number">6.1.</span> <span class="toc-text">1. 直接法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">6.2.</span> <span class="toc-text">2.迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95"><span class="toc-number">6.2.1.</span> <span class="toc-text">2.1 梯度下降法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E7%89%9B%E9%A1%BF%E6%B3%95"><span class="toc-number">6.2.2.</span> <span class="toc-text">2.2 牛顿法</span></a></li></ol></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%AB%98%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">一些高数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%A2%AF%E5%BA%A6%E3%80%81%E6%95%A3%E5%BA%A6%E3%80%81%E6%97%8B%E5%BA%A6"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">1. 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99"><span class="toc-number">1.0.0.2.</span> <span class="toc-text">2. 克莱姆法则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9F%B1%E5%9D%90%E6%A0%87"><span class="toc-number">1.0.0.3.</span> <span class="toc-text">3. 柱坐标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.0.0.4.</span> <span class="toc-text">4.欧拉公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.</span> <span class="toc-text">5. 泰勒展开</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.6.</span> <span class="toc-text">6. 常见函数的泰勒展开</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.7.</span> <span class="toc-text">7. 多元函数泰勒展开</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E4%BB%BF%E5%B0%84%E5%87%BD%E6%95%B0%E5%92%8C%E7%BA%BF%E6%80%A7%E5%87%BD%E6%95%B0"><span class="toc-number">1.0.0.8.</span> <span class="toc-text">8. 仿射函数和线性函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#9-%E5%88%A9%E6%99%AE%E5%B8%8C%E8%8C%A8%E8%BF%9E%E7%BB%AD-Application-lipschitzienne"><span class="toc-number">1.0.0.9.</span> <span class="toc-text">9.利普希茨连续 (Application lipschitzienne)</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">线性代数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E9%80%86"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">证明矩阵可逆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">证明矩阵可对角化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">矩阵运算%</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E6%95%B0%E5%92%8C%E8%8C%83%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">条件数和范数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Gerchgarin-Hadmard-%E5%AE%9A%E7%90%86"><span class="toc-number">2.2.</span> <span class="toc-text">$Gerchgarin-Hadmard$ 定理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%96%E5%B0%94%E5%9C%86%E7%9B%98%E5%AE%9A%E7%90%86%EF%BC%88%E4%BC%B0%E8%AE%A1%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E8%8C%83%E5%9B%B4%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">盖尔圆盘定理（估计矩阵特征值的范围）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">有限差分法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#0-LU-%E5%88%86%E8%A7%A3"><span class="toc-number">4.1.</span> <span class="toc-text">0. LU 分解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%9F%A5%E8%AF%86%EF%BC%9A"><span class="toc-number">4.2.</span> <span class="toc-text">小知识：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Jacobi"><span class="toc-number">4.3.</span> <span class="toc-text">1. Jacobi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Gauss-Seidel"><span class="toc-number">4.4.</span> <span class="toc-text">2. Gauss-Seidel</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Relaxation%EF%BC%88%E9%80%90%E6%AC%A1%E8%B6%85%E6%9D%BE%E5%BC%9B-SOR%EF%BC%89"><span class="toc-number">4.5.</span> <span class="toc-text">3. Relaxation（逐次超松弛&#x2F;SOR）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92"><span class="toc-number">5.</span> <span class="toc-text">线性回归</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text">优化问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#I-%E6%97%A0%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%EF%BC%88optimisation-sans-contrainte%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">I. 无约束优化（optimisation sans contrainte）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E7%9B%B4%E6%8E%A5%E6%B3%95"><span class="toc-number">6.2.</span> <span class="toc-text">1.1  直接法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">6.3.</span> <span class="toc-text">1.2 迭代法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#II-%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%89"><span class="toc-number">6.4.</span> <span class="toc-text">II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#KKT"><span class="toc-number">6.4.0.1.</span> <span class="toc-text">KKT</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#III-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.</span> <span class="toc-text">III. 凸优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%87%B8%E9%9B%86"><span class="toc-number">6.5.1.</span> <span class="toc-text">1. 凸集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%87%B8%E9%9B%86%E4%BE%8B%E5%AD%90"><span class="toc-number">6.5.1.1.</span> <span class="toc-text">常见凸集例子</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%87%B8%E5%87%BD%E6%95%B0"><span class="toc-number">6.5.2.</span> <span class="toc-text">2. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#def"><span class="toc-number">6.5.2.1.</span> <span class="toc-text">$def.$</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%89"><span class="toc-number">6.5.2.2.</span> <span class="toc-text">一阶判定（严格凸去掉等号）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%8C%E6%AD%A3%E5%AE%9A%EF%BC%89"><span class="toc-number">6.5.2.3.</span> <span class="toc-text">二阶判定（严格凸去掉等号，正定）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E-point-selle%EF%BC%9A"><span class="toc-number">6.5.2.4.</span> <span class="toc-text">证明 point selle：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.3.</span> <span class="toc-text">3. 凸优化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA"><span class="toc-number">7.</span> <span class="toc-text">概率论</span></a></li></ol>
     </nav>
   </div>
 </aside>
@@ -288,10 +305,10 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/#comments" class="article-comment-link">Comments</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 671(words)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 2.6k(words)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2(minutes)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 9(minutes)</span>
 	
 
       </div>
@@ -302,10 +319,9 @@
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmnvcldnj21dg0ngwlu.jpg" alt="IMG_381485065AAF-1" style="zoom:50%;" />
 
-
-
+<p>拉普拉斯算子是黑塞矩阵的迹</p>
+<p><img src="/Users/wuzilong/Library/Application%20Support/typora-user-images/23f4db415be866163432946603c07edbc4a21a41.svg" alt="黑塞矩阵">黑塞矩阵</p>
 <h4 id="2-克莱姆法则"><a href="#2-克莱姆法则" class="headerlink" title="2. 克莱姆法则"></a>2. 克莱姆法则</h4><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzspt8jsdoj20ry0ni0ub.jpg" alt="截屏2022-02-04 09.17.40" style="zoom:33%;" />
-
 
 <h4 id="3-柱坐标"><a href="#3-柱坐标" class="headerlink" title="3. 柱坐标"></a>3. 柱坐标<img src="/Users/wuzilong/Library/Application%20Support/typora-user-images/%E6%88%AA%E5%B1%8F2022-02-09%2022.09.08.png" alt="截屏2022-02-09 22.09.08" style="zoom: 20%;" /></h4><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gz7y9i6wdvj314b0qdgoa.jpg" alt="IMG_2342" style="zoom:50%;" />
 
@@ -329,10 +345,35 @@
 
 <center><i>通常写到第二项就好了</i> </center>
 
-
-
 <h4 id="6-常见函数的泰勒展开"><a href="#6-常见函数的泰勒展开" class="headerlink" title="6. 常见函数的泰勒展开"></a>6. 常见函数的泰勒展开</h4><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gz8rt0z292j30u00umq50.jpg" alt="截屏2022-02-10 15.10.43" style="zoom:50%;" />
 
+
+
+<h4 id="7-多元函数泰勒展开"><a href="#7-多元函数泰勒展开" class="headerlink" title="7. 多元函数泰勒展开"></a>7. 多元函数泰勒展开</h4><p>7.1 </p>
+<img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/%E6%88%AA%E5%B1%8F2022-04-06%2015.01.33.png" alt="截屏2022-04-06 15.01.33" style="zoom:50%;" />
+
+<p>7.2</p>
+<ol>
+<li><strong>一元函数在点</strong><img src="https://www.zhihu.com/equation?tex=x_%7Bk%7D" alt="[公式]"><strong>处的泰勒展开式为：</strong></li>
+</ol>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10lpn0nu6j20z002udfw.jpg"></p>
+<ol start="2">
+<li><strong>二元函数在点</strong><img src="https://www.zhihu.com/equation?tex=(x_%7Bk%7D,+y_%7Bk%7D)" alt="[公式]"><strong>处的泰勒展开式为：</strong></li>
+</ol>
+<p><img src="https://pic1.zhimg.com/80/v2-bfbf755daa484a0bc0d8d4e1b2943c94_1440w.jpg" alt="img"></p>
+<ol start="3">
+<li><strong>多元函数(n)在点</strong><img src="https://www.zhihu.com/equation?tex=x_%7Bk%7D" alt="[公式]"><strong>处的泰勒展开式为：</strong></li>
+</ol>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10lqnuzvkj20yg08egm5.jpg" alt="img"></p>
+<p>矩阵形式</p>
+<p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/v2-84f1ca33aaebdaae45dd570d3d9b6cef_1440w.jpg" alt="v2-84f1ca33aaebdaae45dd570d3d9b6cef_1440w"></p>
+<h4 id="8-仿射函数和线性函数"><a href="#8-仿射函数和线性函数" class="headerlink" title="8. 仿射函数和线性函数"></a>8. 仿射函数和线性函数</h4><p>仿射函数和线性函数的区别</p>
+<p>仿射函数即由由1阶多项式构成的函数，一般形式为 $ f (x)= A x + b$ ，这里，$A$ 是一个 $m * k $ 矩阵，$x$ 是一个 $k$ 向量, $b$是一个 $m$ 向量，实际上反映了一种从 k 维到 m 维的空间映射关系。</p>
+<p>设$f$是一个矢性（值）函数，若它可以表示为 $f(x_1,x_2,…,x_n)=A_1x_1+A_2x_2+…+A_nx_n+b$，其中 $A_i$ 可以是标量，也可以是矩阵，则称f是仿射函数。</p>
+<p>其中的特例是，标性（值）函数 $f(x)=ax+b$，其中 $a、x、b$ 都是标量。此时严格讲，只有 $b=0$ 时，仿射函数才可以叫“线性函数”（“正比例”关系）。</p>
+<h4 id="9-利普希茨连续-Application-lipschitzienne"><a href="#9-利普希茨连续-Application-lipschitzienne" class="headerlink" title="9.利普希茨连续 (Application lipschitzienne)"></a>9.利普希茨连续 (Application lipschitzienne)</h4><blockquote>
+<p>在数学中，特别是实分析，利普希茨连续以德国数学家鲁道夫·利普希茨命名，是一个比通常连续更强的光滑性条件。直觉上，利普希茨连续函数限制了函数改变的速度，符合利普希茨条件的函数的斜率，必小于一个称为利普希茨常数的实数。</p>
+</blockquote>
 <h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><img src="https://tva1.sinaimg.cn/large/008i3skNgy1gz9m3k8xwaj31oc0fmq81.jpg" alt="截屏2022-02-11 08.38.52" style="zoom:50%;" />
 $$
 A^* 是 A 的 共轭转置矩阵
@@ -375,13 +416,49 @@ $$
 </ol>
 </li>
 </ol>
+<h4 id="证明矩阵可逆"><a href="#证明矩阵可逆" class="headerlink" title="证明矩阵可逆"></a>证明矩阵可逆</h4><ol>
+<li>满秩</li>
+<li>行列式值不为 0</li>
+<li>特征值均不为 0</li>
+</ol>
+<h4 id="证明矩阵可对角化"><a href="#证明矩阵可对角化" class="headerlink" title="证明矩阵可对角化"></a>证明矩阵可对角化</h4><ol>
+<li><p>有 n 个不同的特征值</p>
+</li>
+<li><p>实对称矩阵（hermite 矩阵）可对角化</p>
+</li>
+<li><p>存在可逆矩阵 $P$ 使得 $P^{-1}AP$ 是对角矩阵，当 $P$ 为正交矩阵时，得到的对角阵是由特征值构成的即 $diag{\lambda_1,\lambda_2…\lambda_n}$</p>
+</li>
+<li><p>$(Ax|x)&gt;0$ quand A est definie-positive</p>
+</li>
+</ol>
+<h4 id="矩阵运算"><a href="#矩阵运算" class="headerlink" title="矩阵运算%"></a>矩阵运算%</h4><ol>
+<li><p>实矩阵：$(x|y) = x^Ty$</p>
+</li>
+<li><p>复数矩阵：$(x|y) = x^T\bar{y}$ ，$\bar{y} 表示求y共轭$</p>
+</li>
+<li><p>应用</p>
+<ol>
+<li>$(Ax|y) = (x|A^Ty)$，对于实矩阵</li>
+<li>$(Ax|y) = (x|A^*y)$ ，对于复矩阵</li>
+<li>$\overline{(My|y)} = (y|My)$</li>
+<li>$((D-E)x|x)=(Dx|x)-(Ex|x)$</li>
+<li>$(x|(D-E)x) = (x|Dx) - (x|Ex)$</li>
+</ol>
+</li>
+</ol>
 <h2 id="条件数和范数"><a href="#条件数和范数" class="headerlink" title="条件数和范数"></a>条件数和范数</h2><blockquote>
 <p>比较矩阵是否优秀的标准</p>
 <p>这个东西的各个分向量的 p 次方，求和，再开 p 次方根，这个 p 就是范数</p>
 </blockquote>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmdsglndj214w0u0q9c.jpg" alt="IMG_245D3ED1E194-1" style="zoom:50%;" />
 
-<p>当 J 是实对称矩阵时，其谱半径 = 2-范数</p>
+<p>$Cond_p(A)=\parallel A \parallel_p \parallel A^{-1}\parallel_p$</p>
+<p>当 J 是实对称矩阵时，其谱半径 = 2 - 范数</p>
+<p>矩阵的二范数又写作$\parallel A \parallel_2 = \sqrt {\rho(A^TA)}$</p>
+<p>谱半径 $\rho$：特征值绝对值的最大值</p>
+<p>$\rho(A)\leq \parallel A \parallel$ 即谱半径小于任何一种矩阵范数</p>
+<h2 id="Gerchgarin-Hadmard-定理"><a href="#Gerchgarin-Hadmard-定理" class="headerlink" title="$Gerchgarin-Hadmard$ 定理"></a>$Gerchgarin-Hadmard$ 定理</h2><p>$|\lambda -a_{kk}| \leq \sum_{j \neq k}|a_{kj}|$ ，即特征值减去某个主对角线上的元素的绝对值 小于等于 该行所有其他元素的绝对值之和</p>
+<h2 id="盖尔圆盘定理（估计矩阵特征值的范围）"><a href="#盖尔圆盘定理（估计矩阵特征值的范围）" class="headerlink" title="盖尔圆盘定理（估计矩阵特征值的范围）"></a>盖尔圆盘定理（估计矩阵特征值的范围）</h2><p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/v2-c7a506f61e7114b7302db5e84ba6fb7c_1440w.jpg" alt="v2-c7a506f61e7114b7302db5e84ba6fb7c_1440w"></p>
 <h1 id="有限差分法"><a href="#有限差分法" class="headerlink" title="有限差分法"></a>有限差分法</h1><p>已知在空间中分布的离散物理量</p>
 <ol>
 <li>构建差分格式<ol>
@@ -393,6 +470,19 @@ $$
 <h1 id="迭代法"><a href="#迭代法" class="headerlink" title="迭代法"></a>迭代法</h1><p>求解线性方程的近似解</p>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzso72fschj20wa084myj.jpg" alt="截屏2022-02-27 20.17.05" style="zoom:50%;" />
 
+<p>注意：-E 是下半角，E 是下半角的负</p>
+<p>判断收不收敛的依据：$X^{k+1} = BX^k + b$  收敛当 $\rho(B) &lt; 1$，且谱半径越小，收敛越快</p>
+<h2 id="0-LU-分解"><a href="#0-LU-分解" class="headerlink" title="0. LU 分解"></a>0. LU 分解</h2><blockquote>
+<p>可以将一个矩阵分解为一个下三角矩阵和一个上三角矩阵的乘积（有时是它们和一个置换矩阵的乘积）</p>
+</blockquote>
+<p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/1203675-20180829172046678-2067287514.png" alt="1203675-20180829172046678-2067287514"></p>
+<p>更进一步，希望下三角矩阵的主对角线为 1</p>
+<p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/1203675-20180829172059738-678872282.png" alt="1203675-20180829172059738-678872282"></p>
+<h2 id="小知识："><a href="#小知识：" class="headerlink" title="小知识："></a>小知识：</h2><p>对于线性问题 $Ax = b$，若 A 为 definie-positive，$A = D - E - F$</p>
+<p>on a $(Ax|x)&gt;0$</p>
+<p>donc quand $x = e_i,e_i \ est  \ comme \ (1,0,….,0)$</p>
+<p>on a $(Ax|x) = (Ae_i|e_i) = a_{ii}&gt;0$</p>
+<p>donc $D-E \ et \ D-F$  sont inversible</p>
 <h2 id="1-Jacobi"><a href="#1-Jacobi" class="headerlink" title="1. Jacobi"></a>1. Jacobi</h2><p>例子：</p>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsnxan7kkj20m80c63zr.jpg" alt="20180708153631101" style="zoom:50%;" />
 
@@ -403,6 +493,9 @@ $$
 <p>定义：</p>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsotyfdr2j21400leadn.jpg" alt="截屏2022-02-27 20.39.12" style="zoom:50%;" />
 
+
+
+<p>收敛的另一种条件：A 按行（或列）严格对角占优</p>
 <h2 id="2-Gauss-Seidel"><a href="#2-Gauss-Seidel" class="headerlink" title="2. Gauss-Seidel"></a>2. Gauss-Seidel</h2><p>例子：</p>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsochwqobj20fp08agm8.jpg" alt="20180707234720472" style="zoom: 70%;" />
 
@@ -415,8 +508,12 @@ $$
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsovm1sz2j213w0gswhg.jpg" alt="截屏2022-02-27 20.40.21" style="zoom:50%;" />
 
-
-
+<p>收敛的另一种条件 :系数矩阵 A 满足</p>
+<ol>
+<li>按行（或列）严格对角占优</li>
+<li>不可约按行（或列）对角占优</li>
+<li>为对称正定矩阵</li>
+</ol>
 <h2 id="3-Relaxation（逐次超松弛-SOR）"><a href="#3-Relaxation（逐次超松弛-SOR）" class="headerlink" title="3. Relaxation（逐次超松弛/SOR）"></a>3. Relaxation（逐次超松弛/SOR）</h2><p>定义：</p>
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzsoveqsodj213q0gswh4.jpg" alt="截屏2022-02-27 20.40.33" style="zoom:50%;" />
 
@@ -425,7 +522,70 @@ $$
 
 
 <h1 id="线性回归"><a href="#线性回归" class="headerlink" title="线性回归"></a>线性回归</h1><p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0dmcdhb24j21i10rsq9u.jpg" alt="IMG_834FAB2217D0-1"></p>
-<h1 id="无约束优化（optimisation-sans-contrainte）"><a href="#无约束优化（optimisation-sans-contrainte）" class="headerlink" title="无约束优化（optimisation sans contrainte）"></a>无约束优化（optimisation sans contrainte）</h1><h2 id="1-直接法"><a href="#1-直接法" class="headerlink" title="1. 直接法"></a>1. 直接法</h2><h2 id="2-迭代法"><a href="#2-迭代法" class="headerlink" title="2.迭代法"></a>2.迭代法</h2><h3 id="2-1-梯度下降法"><a href="#2-1-梯度下降法" class="headerlink" title="2.1 梯度下降法"></a>2.1 梯度下降法</h3><h3 id="2-2-牛顿法"><a href="#2-2-牛顿法" class="headerlink" title="2.2 牛顿法"></a>2.2 牛顿法</h3>
+<h1 id="优化问题"><a href="#优化问题" class="headerlink" title="优化问题"></a>优化问题</h1><h2 id="I-无约束优化（optimisation-sans-contrainte）"><a href="#I-无约束优化（optimisation-sans-contrainte）" class="headerlink" title="I. 无约束优化（optimisation sans contrainte）"></a>I. 无约束优化（optimisation sans contrainte）</h2><h2 id="1-1-直接法"><a href="#1-1-直接法" class="headerlink" title="1.1  直接法"></a>1.1  直接法</h2><p>常常使用的方法就是Fermat定理，即使用求取f(x)的导数，然后令其为零，可以求得候选最优值，再在这些候选值中验证；如果是<strong>凸函数</strong>可以保证是最优解。</p>
+<p>但是一般使用直接法比较难，所以使用迭代法来近似求解</p>
+<h2 id="1-2-迭代法"><a href="#1-2-迭代法" class="headerlink" title="1.2 迭代法"></a>1.2 迭代法</h2><p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0u9n171jbj20u00z1jvt.jpg" alt="IMG_2399"></p>
+<h2 id="II-约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）"><a href="#II-约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）" class="headerlink" title="II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）"></a>II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）</h2><h4 id="KKT"><a href="#KKT" class="headerlink" title="KKT"></a>KKT</h4><ol>
+<li>等式不等式约束均有</li>
+</ol>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10npw434mj21hc0mc79j.jpg" alt="IMG_2403"></p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10o69mdi1j21in0m0tb6.jpg" alt="IMG_2404"></p>
+<h2 id="III-凸优化"><a href="#III-凸优化" class="headerlink" title="III. 凸优化"></a>III. 凸优化</h2><p>求解一个一般性的最优化问题的全局极小值是非常困难的，至少要面临的问题是：函数可能有多个局部极值点，另外还有鞍点问题。对于第一个问题，我们找到了一个梯度为 0 的点，它是极值点，但不是全局极值，如果一个问题有多个局部极值，则我们要把所有局部极值找出来，然后比较，得到全局极值，这非常困难，而且计算成本相当高。第二个问题更严重，我们找到了梯度为 0 的点，但它连局部极值都不是，典型的是 $X^3$ 这个函数</p>
+<p>梯度下降法和牛顿法等基于导数作为判据的优化算法，找到的都导数/梯度为0的点，而梯度等于0只是取得极值的必要条件而不是充分条件。如果我们将这个必要条件变成充分条件，即：</p>
+<img src="https://pic4.zhimg.com/80/v2-89df8ea24830f5e0ab31e9333a5d413f_1440w.jpg" alt="img" style="zoom:33%;" />
+
+<p>问题将会得到简化。如果对问题加以限定，是可以保证上面这个条件成立的。其中的一种限制方案是：</p>
+<p><strong>对于目标函数，我们限定是凸函数；对于优化变量的可行域（注意，还要包括目标函数定义域的约束），我们限定它是凸集。</strong></p>
+<p>同时满足这两个限制条件的最优化问题称为凸优化问题，这类问题有一个非常好性质，那就是局部最优解一定是全局最优解。接下来我们先介绍凸集和凸函数的概念。</p>
+<h3 id="1-凸集"><a href="#1-凸集" class="headerlink" title="1. 凸集"></a>1. 凸集</h3><p>对于n维空间中点的集合C，如果对集合中的任意两点x和y，以及实数 $0 \leq \theta \leq 1 $ ，都有：$\theta x + (1-\theta)$,  $ y\in C $，则称该集合称为凸集。</p>
+<h4 id="常见凸集例子"><a href="#常见凸集例子" class="headerlink" title="常见凸集例子"></a>常见凸集例子</h4><ol>
+<li><p>$n 维实向量空间 R^n$</p>
+</li>
+<li><p>仿射子空间</p>
+<p> 给定m行n列的矩阵A和m维向量b，仿射子空间定义为如下向量的集合：$\lbrace x \in R^n:Ax = b \rbrace$</p>
+</li>
+<li><p>多面体</p>
+<p> $\lbrace x \in R^n:Ax \leq b \rbrace$</p>
+</li>
+</ol>
+<h3 id="2-凸函数"><a href="#2-凸函数" class="headerlink" title="2. 凸函数"></a>2. 凸函数</h3><h4 id="def"><a href="#def" class="headerlink" title="$def.$"></a>$def.$</h4><ol>
+<li><p>$convexe$</p>
+<p> $\forall x,y \in K,\forall t \in [0,1],J(tx + (1-t)y) \leq tJ(x) + (1-t)J(y)$</p>
+</li>
+<li><p>$strictement \ convexe$</p>
+<p> $\forall x,y \in K, x\neq y, \forall t \in\ ]0,1[ \ , J(tx + (1-t)y) &lt; tJ(x) + (1-t)J(y)$</p>
+</li>
+<li><p>$\alpha-concexe: si$  $\exists \ \alpha &gt;0$</p>
+<p> $\forall x,y \in K, \forall t \in\ [0,1] \ , J(tx + (1-t)y) \leq tJ(x) + (1-t)J(y) -\alpha \frac{t(1-t)}{2} \parallel x-y \parallel^2 $</p>
+</li>
+</ol>
+<h4 id="一阶判定（严格凸去掉等号）"><a href="#一阶判定（严格凸去掉等号）" class="headerlink" title="一阶判定（严格凸去掉等号）"></a>一阶判定（严格凸去掉等号）</h4><p>$f(y) \geq f(x)+\bigtriangledown f(x)^T(y-x)$</p>
+<h4 id="二阶判定（严格凸去掉等号，正定）"><a href="#二阶判定（严格凸去掉等号，正定）" class="headerlink" title="二阶判定（严格凸去掉等号，正定）"></a>二阶判定（严格凸去掉等号，正定）</h4><ol>
+<li><p>一元函数：$f’(x) \geq0$</p>
+</li>
+<li><p>多元函数：$hessian$ 矩阵 记为：$\bigtriangledown^2f(x)$, 为半正定 </p>
+ <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10d8s2geqj20me0d80ta.jpg" alt="img" style="zoom:33%;" />
+
+<ol>
+<li>如果Hessian矩阵正定，函数在该点有极小值</li>
+<li>如果Hessian矩阵负定，函数在该点有极大值</li>
+<li>如果Hessian矩阵不定，则不是极值点（鞍点）</li>
+</ol>
+<p> 判断矩阵正定：</p>
+<ol>
+<li>特征值全大于 0</li>
+<li>所有顺序主子式大于 0</li>
+<li>矩阵合同为单位矩阵</li>
+</ol>
+</li>
+</ol>
+<p>实对称 + 正定 = $\alpha-concerxe$</p>
+<h4 id="证明-point-selle："><a href="#证明-point-selle：" class="headerlink" title="证明 point selle："></a>证明 point selle：</h4><p>$\triangledown^2J(x^*)$ 有严格正定的特征值，也有严格负定的特征值，却都不为 0</p>
+<h3 id="3-凸优化"><a href="#3-凸优化" class="headerlink" title="3. 凸优化"></a>3. 凸优化</h3><p>$$<br>minf(x) \</p>
+<p>g_i(x) \leq 0,i = 1,…,m \</p>
+<p>h_i(x) = 0, i = 1,…,p<br>$$</p>
+<p>其中 $g_i(x)$是不等式约束，为凸函数；$h_i(x)$是等式约束函数，为仿射函数</p>
+<h1 id="概率论"><a href="#概率论" class="headerlink" title="概率论"></a>概率论</h1>
       
     </div>
     <div class="article-footer">
