@@ -6,7 +6,7 @@
   <link href="http://littlewuuu.com/atom.xml" rel="self"/>
   
   <link href="http://littlewuuu.com/"/>
-  <updated>2022-08-20T08:11:28.661Z</updated>
+  <updated>2022-09-22T12:15:30.402Z</updated>
   <id>http://littlewuuu.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>环境变量修改</title>
+    <link href="http://littlewuuu.com/2022/09/22/MacOS%E7%9A%84PATH%E4%BF%AE%E6%94%B9/"/>
+    <id>http://littlewuuu.com/2022/09/22/MacOS%E7%9A%84PATH%E4%BF%AE%E6%94%B9/</id>
+    <published>2022-09-21T22:00:00.000Z</published>
+    <updated>2022-09-22T12:15:30.402Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MacOS-PATH"><a href="#MacOS-PATH" class="headerlink" title="MacOS PATH"></a>MacOS PATH</h1><h2 id="环境变量相关的文件"><a href="#环境变量相关的文件" class="headerlink" title="环境变量相关的文件"></a>环境变量相关的文件</h2><p>按下述顺序加载：</p><ol><li><code>/etc/profile</code></li><li><code>/etc/paths</code></li><li><code>/etc/bashrc</code></li><li><code>~/.bash_profile</code> 或 <code>~/.bashrc </code></li><li><code>~/.bash_login</code></li></ol><p><code>/etc/profile</code>, <code>/etc/paths</code>, <code>/etc/bashrc</code> 是系统级别配置文件，系统启动就会加载。</p><p>后面几个是当前用户级的环境变量，按照<strong>从前往后的顺序</strong>读取，如果 <code>~/.bash_profile</code>文件存在，则后面的几个文件就会被忽略不读，如果<code>~/.bash_profile</code>文件不存在，才会以此类推读取后面的文件。</p><p><code>~/.bashrc</code>没有上述规则，它是bash shell打开的时候载入的。</p><h2 id="全局修改"><a href="#全局修改" class="headerlink" title="全局修改"></a>全局修改</h2><h2 id="用户级别修改"><a href="#用户级别修改" class="headerlink" title="用户级别修改"></a>用户级别修改</h2><p>一般都是修改<code>~/.bash_profile</code>文件（Linux中是<code>~/.bashrc</code>，而Mac OS是<code>~/.bash_profile</code>）</p><ol><li><p>检查是不是在环境变量里了</p> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $PATH</span><br></pre></td></tr></table></figure></li><li><p>```java<br> open ~/.bash_profile</p> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">如果遇到 permission denied，使用</span><br><span class="line"></span><br><span class="line">```java</span><br><span class="line">sudo chown username ~/.bash_profile</span><br></pre></td></tr></table></figure><p> 修改用户权限</p></li><li><p>添加后保存</p> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 注释</span><br><span class="line">export <span class="string">&quot;PATH=路径:$PATH&quot;</span></span><br></pre></td></tr></table></figure></li><li><p>输入使修改生效</p> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bash_profile</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;MacOS-PATH&quot;&gt;&lt;a href=&quot;#MacOS-PATH&quot; class=&quot;headerlink&quot; title=&quot;MacOS PATH&quot;&gt;&lt;/a&gt;MacOS PATH&lt;/h1&gt;&lt;h2 id=&quot;环境变量相关的文件&quot;&gt;&lt;a href=&quot;#环境变量相关的文件&quot; c</summary>
+      
+    
+    
+    
+    <category term="SKILLS" scheme="http://littlewuuu.com/categories/SKILLS/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>ccube cheat list</title>
