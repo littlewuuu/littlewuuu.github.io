@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/categories/index.html</loc>
-    
-    <lastmod>2021-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://littlewuuu.com/links/index.html</loc>
     
     <lastmod>2021-12-30</lastmod>
@@ -47,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/tags/index.html</loc>
+    <loc>http://littlewuuu.com/404.html</loc>
     
     <lastmod>2021-12-30</lastmod>
     
@@ -56,7 +47,16 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/404.html</loc>
+    <loc>http://littlewuuu.com/categories/index.html</loc>
+    
+    <lastmod>2021-12-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/tags/index.html</loc>
     
     <lastmod>2021-12-30</lastmod>
     
