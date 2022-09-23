@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  <!-- Color theme for statusbar -->
-  <meta name="theme-color" content="#000000" />
-  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <title>MATHS | Bonjour!</title>
-  <meta name="description" content="一些高数1. 梯度、散度、旋度  拉普拉斯算子是黑塞矩阵的迹 黑塞矩阵 2. 克莱姆法则 3. 柱坐标 4.欧拉公式 e^{ix} &#x3D; cosx + isinx5. 泰勒展开         通常写到第二项就好了   5.1  常见函数的泰勒展开 5.2 多元函数泰勒展开7.1 def  7.2 各种情况  一元函数在点处的泰勒展开式为：    二元函数在点处的泰勒展开式为：    多元函数(n)">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="一些高数1. 梯度、散度、旋度  拉普拉斯算子是黑塞矩阵的迹 黑塞矩阵 2. 克莱姆法则 3. 柱坐标 4.欧拉公式 e^{ix} &#x3D; cosx + isinx5. 泰勒展开         通常写到第二项就好了   5.1  常见函数的泰勒展开 5.2 多元函数泰勒展开7.1 def  7.2 各种情况  一元函数在点处的泰勒展开式为：    二元函数在点处的泰勒展开式为：    多元函数(n)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MATHS">
 <meta property="og:url" content="http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/index.html">
@@ -81,256 +69,150 @@
 <meta property="og:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/e6c9d24egy1h2pm5spwdpj210s084dgl.jpg">
 <meta property="article:published_time" content="2022-02-26T23:00:00.000Z">
 <meta property="article:modified_time" content="2022-06-06T20:53:59.190Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Zilong WU">
 <meta property="article:tag" content="ECN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://littlewuuu.com/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/e6c9d24egy1gzspt77792j20u01327d2.jpg">
-  <!-- Canonical links -->
-  <link rel="canonical" href="http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/index.html">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon1.png" type="image/x-icon">
-  
-  
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>MATHS</title>
+    <!-- styles -->
+    
 <link rel="stylesheet" href="/css/style.css">
 
-  
-  
-  
-    <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
-  
-  
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head>
 
-
-<body class="main-center theme-purple no-sidebar" itemscope itemtype="http://schema.org/WebPage">
-  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="slimContent">
-    <div class="navbar-header">
-      
-      
-      <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/littlewuuu" target="_blank">
-          <img class="img-circle img-rotate" src="/images/meee.jpg" width="200" height="200">
-        </a>
-        <h2 id="name" class="hidden-xs hidden-sm">Wuuu</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md"></h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Nantes,France</small>
-      </div>
-      
-      <div class="search" id="search-form-wrap">
-
-    <form class="search-form sidebar-form">
-        <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="Search" />
-            <span class="input-group-btn">
-                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
-            </span>
-        </div>
-    </form>
-    <div class="ins-search">
-  <div class="ins-search-mask"></div>
-  <div class="ins-search-container">
-    <div class="ins-input-wrapper">
-      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
-      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    </div>
-    <div class="ins-section-wrapper">
-      <div class="ins-section-container"></div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-      <ul class="nav navbar-nav main-nav ">
-        
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            
-            <i class="icon icon-archives-fill"></i>
-            
-            <span class="menu-title">Archives</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            
-            <i class="icon icon-folder"></i>
-            
-            <span class="menu-title">Categories</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-links">
-          <a href="/links">
-            
-            <i class="icon icon-friendship"></i>
-            
-            <span class="menu-title">Links</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about">
-            
-            <i class="icon icon-cup-fill"></i>
-            
-            <span class="menu-title">About</span>
-          </a>
-        </li>
-        
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
       </ul>
-      
-	
-    <ul class="social-links">
-    	
-        <li><a href="https://github.com/littlewuuu" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
         
-        <li><a href="https://weibo.com/littlewuu" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        <li><a class="icon" aria-label="Previous post" href="/2022/02/27/HTML+CSS/HTML+CSS/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
-    </ul>
+        
+        <li><a class="icon" aria-label="Next post" href="/2022/02/11/%E7%AE%97%E6%B3%95%E6%A1%86%E6%9E%B6/%E7%AE%97%E6%B3%95%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&text=MATHS"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&is_video=false&description=MATHS"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=MATHS&body=Check out this article: http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&name=MATHS&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&t=MATHS"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
 
-    </nav>
-  </div>
-</header>
-
-  
-    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    
-      <div class="widget">
-    <h3 class="widget-title">Board</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content">
-                <p> <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h6gax2mhzuj20u00u0486.jpg" width=70%/> <br/> COLDPLAY PARIS ！！！ </p>
-            </div>
-        </div>
     </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%AB%98%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">一些高数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%A2%AF%E5%BA%A6%E3%80%81%E6%95%A3%E5%BA%A6%E3%80%81%E6%97%8B%E5%BA%A6"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">1. 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99"><span class="toc-number">1.0.0.2.</span> <span class="toc-text">2. 克莱姆法则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9F%B1%E5%9D%90%E6%A0%87"><span class="toc-number">1.0.0.3.</span> <span class="toc-text">3. 柱坐标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.0.0.4.</span> <span class="toc-text">4.欧拉公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.</span> <span class="toc-text">5. 泰勒展开</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1-%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.1.</span> <span class="toc-text">5.1  常见函数的泰勒展开</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.2.</span> <span class="toc-text">5.2 多元函数泰勒展开</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E4%BB%BF%E5%B0%84%E5%87%BD%E6%95%B0%E5%92%8C%E7%BA%BF%E6%80%A7%E5%87%BD%E6%95%B0"><span class="toc-number">1.0.0.6.</span> <span class="toc-text">6. 仿射函数和线性函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-%E5%88%A9%E6%99%AE%E5%B8%8C%E8%8C%A8%E8%BF%9E%E7%BB%AD-Application-lipschitzienne"><span class="toc-number">1.0.0.7.</span> <span class="toc-text">7. 利普希茨连续 (Application lipschitzienne)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E5%A4%8D%E6%95%B0F"><span class="toc-number">1.0.0.8.</span> <span class="toc-text">8. 复数F</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#8-1-%E5%87%A0%E7%A7%8D%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F"><span class="toc-number">1.0.0.8.1.</span> <span class="toc-text">8.1 几种表现形式</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">线性代数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%88%86%E7%B1%BB"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">矩阵分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E9%80%86"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">证明矩阵可逆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">证明矩阵可对角化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97"><span class="toc-number">2.0.0.4.</span> <span class="toc-text">矩阵运算%</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E6%95%B0%E5%92%8C%E8%8C%83%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">条件数和范数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Gerchgarin-Hadmard-%E5%AE%9A%E7%90%86"><span class="toc-number">2.2.</span> <span class="toc-text">$Gerchgarin-Hadmard$ 定理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%96%E5%B0%94%E5%9C%86%E7%9B%98%E5%AE%9A%E7%90%86%EF%BC%88%E4%BC%B0%E8%AE%A1%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E8%8C%83%E5%9B%B4%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">盖尔圆盘定理（估计矩阵特征值的范围）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">有限差分法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%9F%A5%E8%AF%86%EF%BC%9A"><span class="toc-number">4.1.</span> <span class="toc-text">小知识：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0-LU-%E5%88%86%E8%A7%A3"><span class="toc-number">4.2.</span> <span class="toc-text">0. LU 分解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Jacobi"><span class="toc-number">4.3.</span> <span class="toc-text">1. Jacobi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Gauss-Seidel"><span class="toc-number">4.4.</span> <span class="toc-text">2. Gauss-Seidel</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Relaxation%EF%BC%88%E9%80%90%E6%AC%A1%E8%B6%85%E6%9D%BE%E5%BC%9B-SOR%EF%BC%89"><span class="toc-number">4.5.</span> <span class="toc-text">3. Relaxation（逐次超松弛&#x2F;SOR）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92-amp-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">线性回归&amp;最小二乘法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-y-ax-b"><span class="toc-number">5.0.1.</span> <span class="toc-text">$1.\ y&#x3D;ax+b$</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0%E8%BD%AC%E6%8D%A2%E4%B8%80%E4%B8%8B"><span class="toc-number">5.0.1.0.1.</span> <span class="toc-text">对数转换一下</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-h-theta-x-theta-0-theta-1-x-theta-2-x-2-%E2%80%A6-theta-n-x-n"><span class="toc-number">5.0.2.</span> <span class="toc-text">2. $h_\theta(x) &#x3D; \theta_0 + \theta_1 x  \ + \ \theta_2 x^2 \ + … + \  \theta_n x^n $</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95"><span class="toc-number">5.0.2.0.1.</span> <span class="toc-text">求解方法</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text">优化问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#I-%E6%97%A0%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%EF%BC%88optimisation-sans-contrainte%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">I. 无约束优化（optimisation sans contrainte）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E7%9B%B4%E6%8E%A5%E6%B3%95"><span class="toc-number">6.2.</span> <span class="toc-text">1.1  直接法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">6.3.</span> <span class="toc-text">1.2 迭代法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#II-%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%89"><span class="toc-number">6.4.</span> <span class="toc-text">II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#KKT"><span class="toc-number">6.4.0.1.</span> <span class="toc-text">KKT</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%85%83"><span class="toc-number">6.4.0.2.</span> <span class="toc-text">二元</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#III-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.</span> <span class="toc-text">III. 凸优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%87%B8%E9%9B%86"><span class="toc-number">6.5.1.</span> <span class="toc-text">1. 凸集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%87%B8%E9%9B%86%E4%BE%8B%E5%AD%90"><span class="toc-number">6.5.1.1.</span> <span class="toc-text">常见凸集例子</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%87%B8%E5%87%BD%E6%95%B0"><span class="toc-number">6.5.2.</span> <span class="toc-text">2. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#def"><span class="toc-number">6.5.2.1.</span> <span class="toc-text">$def.$</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%89"><span class="toc-number">6.5.2.2.</span> <span class="toc-text">一阶判定（严格凸去掉等号）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%8C%E6%AD%A3%E5%AE%9A%EF%BC%89"><span class="toc-number">6.5.2.3.</span> <span class="toc-text">二阶判定（严格凸去掉等号，正定）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E"><span class="toc-number">6.5.2.4.</span> <span class="toc-text">证明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#soit-J%EF%BC%9AV-rightarrow-R-continue-sur-V"><span class="toc-number">6.5.2.5.</span> <span class="toc-text">$soit J：V \rightarrow  R, continue  \ sur \  V$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.3.</span> <span class="toc-text">3. 凸优化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA"><span class="toc-number">7.</span> <span class="toc-text">概率论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.1.</span> <span class="toc-text">基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="toc-number">7.0.2.</span> <span class="toc-text">随机变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0-fonction-de-repartition-amp-%E6%A6%82%E7%8E%87%E5%AF%86%E5%BA%A6%E5%87%BD%E6%95%B0-la-densite-de-probabilite"><span class="toc-number">7.0.3.</span> <span class="toc-text">分布函数( fonction de répartition ) &amp; 概率密度函数( la densité de probabilité )</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.3.1.</span> <span class="toc-text">分布函数</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.3.1.0.1.</span> <span class="toc-text">1. 概念</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2-%E6%80%A7%E8%B4%A8"><span class="toc-number">7.0.3.1.0.2.</span> <span class="toc-text">2. 性质</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#3-%E5%88%86%E4%BD%8D%E7%82%B9-quantile"><span class="toc-number">7.0.3.1.0.3.</span> <span class="toc-text">3. 分位点( quantile )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#4-%E5%87%A0%E4%B8%AA%E6%80%A7%E8%B4%A8-moments"><span class="toc-number">7.0.3.1.0.4.</span> <span class="toc-text">4. 几个性质 ( moments )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#5-%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">7.0.3.1.0.5.</span> <span class="toc-text">5. 重要不等式</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E5%BE%81%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.4.</span> <span class="toc-text">特征函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B%E6%B1%82%E8%A7%A3"><span class="toc-number">7.0.5.</span> <span class="toc-text">常见题型求解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B2%E7%9F%A5-f-X-Y-x-y-Z-g-X-Y-pour-obtenir-f-Z-z"><span class="toc-number">7.0.5.1.</span> <span class="toc-text">已知 $f_{X,Y}(x,y), \ Z &#x3D; g(X,Y), \ pour \  obtenir \ f_Z(z)$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86-Central-Limit-Theorem"><span class="toc-number">7.0.6.</span> <span class="toc-text">中心极限定理 Central Limit Theorem</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B"><span class="toc-number">7.0.7.</span> <span class="toc-text">大数定律</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%B1%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E4%BE%9D%E6%A6%82%E7%8E%87%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.1.</span> <span class="toc-text">弱大数定律（依概率收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">7.0.7.2.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%BA%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E5%87%A0%E4%B9%8E%E5%BF%85%E7%84%B6%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.3.</span> <span class="toc-text">强大数定律（几乎必然收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A6%82%E7%8E%87%E4%B8%8E%E9%A2%91%E7%8E%87%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.4.</span> <span class="toc-text">伯努利大数定理：揭示了概率与频率的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%9B%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E7%AE%97%E6%9C%AF%E5%B9%B3%E5%9D%87%E5%80%BC%E5%92%8C%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.5.</span> <span class="toc-text">辛利大数定理：揭示了算术平均值和数学期望的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A0%B7%E6%9C%AC%E5%9D%87%E5%80%BC%E5%92%8C%E7%9C%9F%E5%AE%9E%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.6.</span> <span class="toc-text">切比雪夫大数定律：揭示了样本均值和真实期望的关系</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-number">8.</span> <span class="toc-text">统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%EF%BC%88MLE%EF%BC%89"><span class="toc-number">8.0.1.</span> <span class="toc-text">1. 最大似然估计（MLE）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%E6%A6%82%E7%8E%87%E4%BC%B0%E8%AE%A1-MAP"><span class="toc-number">8.0.2.</span> <span class="toc-text">2. 贝叶斯最大后验概率估计(MAP)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%85%AC%E5%BC%8F"><span class="toc-number">8.0.2.1.</span> <span class="toc-text">2.1 贝叶斯公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%EF%BC%88MAP%EF%BC%89%EF%BC%9A"><span class="toc-number">8.0.2.2.</span> <span class="toc-text">2.2 最大后验（MAP）：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1"><span class="toc-number">8.0.3.</span> <span class="toc-text">3. 贝叶斯估计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E5%80%BC%E5%92%8C%E9%80%BC%E8%BF%91"><span class="toc-number">9.</span> <span class="toc-text">插值和逼近</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.1.</span> <span class="toc-text">牛顿插值法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.2.</span> <span class="toc-text">拉格朗日插值法</span></a></li></ol></li></ol>
+    </div>
+  </span>
 </div>
 
     
-      
-  <div class="widget">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/COURS/">COURS</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/SKILLS/">SKILLS</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/le-francais/">le français</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/skills/">skills</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%81%9A%E9%A5%AD%E5%8C%BA/">做饭区</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">3</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ECN/" rel="tag">ECN</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ENG/" rel="tag">ENG</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/le-francais/" rel="tag">le français</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E5%90%83%E7%9A%84/" rel="tag">一些奇奇怪怪的吃的</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%80%E4%BA%9B%E6%AD%A3%E6%AD%A3%E7%BB%8F%E7%BB%8F%E7%9A%84%E5%90%83%E7%9A%84/" rel="tag">一些正正经经的吃的</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B0%E5%A4%84%E7%8E%A9/" rel="tag">到处玩</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB/" rel="tag">好好生活</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/" rel="tag">学了又忘的杂七杂八</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%89%E7%82%B9%E9%9A%BE%E5%AD%A6%E7%9A%84/" rel="tag">有点难学的</a><span class="tag-list-count">2</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget-body tagcloud">
-      <a href="/tags/ECN/" style="font-size: 14px;">ECN</a> <a href="/tags/ENG/" style="font-size: 13px;">ENG</a> <a href="/tags/le-francais/" style="font-size: 13.67px;">le français</a> <a href="/tags/%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E5%90%83%E7%9A%84/" style="font-size: 13px;">一些奇奇怪怪的吃的</a> <a href="/tags/%E4%B8%80%E4%BA%9B%E6%AD%A3%E6%AD%A3%E7%BB%8F%E7%BB%8F%E7%9A%84%E5%90%83%E7%9A%84/" style="font-size: 13px;">一些正正经经的吃的</a> <a href="/tags/%E5%88%B0%E5%A4%84%E7%8E%A9/" style="font-size: 13px;">到处玩</a> <a href="/tags/%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB/" style="font-size: 13px;">好好生活</a> <a href="/tags/%E5%AD%A6%E4%BA%86%E5%8F%88%E5%BF%98%E7%9A%84%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/" style="font-size: 13.67px;">学了又忘的杂七杂八</a> <a href="/tags/%E6%9C%89%E7%82%B9%E9%9A%BE%E5%AD%A6%E7%9A%84/" style="font-size: 13.33px;">有点难学的</a>
-    </div>
-  </div>
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">Archive</h3>
-    <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/02/">February 2022</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/12/">December 2021</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-  </div>
-</aside>
-
-  
-  
-<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    <nav id="toc" class="article-toc">
-      <h3 class="toc-title">Catalogue</h3>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%AB%98%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">一些高数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%A2%AF%E5%BA%A6%E3%80%81%E6%95%A3%E5%BA%A6%E3%80%81%E6%97%8B%E5%BA%A6"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">1. 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99"><span class="toc-number">1.0.0.2.</span> <span class="toc-text">2. 克莱姆法则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9F%B1%E5%9D%90%E6%A0%87"><span class="toc-number">1.0.0.3.</span> <span class="toc-text">3. 柱坐标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.0.0.4.</span> <span class="toc-text">4.欧拉公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.</span> <span class="toc-text">5. 泰勒展开</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1-%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.1.</span> <span class="toc-text">5.1  常见函数的泰勒展开</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.2.</span> <span class="toc-text">5.2 多元函数泰勒展开</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E4%BB%BF%E5%B0%84%E5%87%BD%E6%95%B0%E5%92%8C%E7%BA%BF%E6%80%A7%E5%87%BD%E6%95%B0"><span class="toc-number">1.0.0.6.</span> <span class="toc-text">6. 仿射函数和线性函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-%E5%88%A9%E6%99%AE%E5%B8%8C%E8%8C%A8%E8%BF%9E%E7%BB%AD-Application-lipschitzienne"><span class="toc-number">1.0.0.7.</span> <span class="toc-text">7. 利普希茨连续 (Application lipschitzienne)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E5%A4%8D%E6%95%B0F"><span class="toc-number">1.0.0.8.</span> <span class="toc-text">8. 复数F</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#8-1-%E5%87%A0%E7%A7%8D%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F"><span class="toc-number">1.0.0.8.1.</span> <span class="toc-text">8.1 几种表现形式</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">线性代数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%88%86%E7%B1%BB"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">矩阵分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E9%80%86"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">证明矩阵可逆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">证明矩阵可对角化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97"><span class="toc-number">2.0.0.4.</span> <span class="toc-text">矩阵运算%</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E6%95%B0%E5%92%8C%E8%8C%83%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">条件数和范数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Gerchgarin-Hadmard-%E5%AE%9A%E7%90%86"><span class="toc-number">2.2.</span> <span class="toc-text">$Gerchgarin-Hadmard$ 定理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%96%E5%B0%94%E5%9C%86%E7%9B%98%E5%AE%9A%E7%90%86%EF%BC%88%E4%BC%B0%E8%AE%A1%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E8%8C%83%E5%9B%B4%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">盖尔圆盘定理（估计矩阵特征值的范围）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">有限差分法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%9F%A5%E8%AF%86%EF%BC%9A"><span class="toc-number">4.1.</span> <span class="toc-text">小知识：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0-LU-%E5%88%86%E8%A7%A3"><span class="toc-number">4.2.</span> <span class="toc-text">0. LU 分解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Jacobi"><span class="toc-number">4.3.</span> <span class="toc-text">1. Jacobi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Gauss-Seidel"><span class="toc-number">4.4.</span> <span class="toc-text">2. Gauss-Seidel</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Relaxation%EF%BC%88%E9%80%90%E6%AC%A1%E8%B6%85%E6%9D%BE%E5%BC%9B-SOR%EF%BC%89"><span class="toc-number">4.5.</span> <span class="toc-text">3. Relaxation（逐次超松弛&#x2F;SOR）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92-amp-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">线性回归&amp;最小二乘法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-y-ax-b"><span class="toc-number">5.0.1.</span> <span class="toc-text">$1.\ y&#x3D;ax+b$</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0%E8%BD%AC%E6%8D%A2%E4%B8%80%E4%B8%8B"><span class="toc-number">5.0.1.0.1.</span> <span class="toc-text">对数转换一下</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-h-theta-x-theta-0-theta-1-x-theta-2-x-2-%E2%80%A6-theta-n-x-n"><span class="toc-number">5.0.2.</span> <span class="toc-text">2. $h_\theta(x) &#x3D; \theta_0 + \theta_1 x  \ + \ \theta_2 x^2 \ + … + \  \theta_n x^n $</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95"><span class="toc-number">5.0.2.0.1.</span> <span class="toc-text">求解方法</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text">优化问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#I-%E6%97%A0%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%EF%BC%88optimisation-sans-contrainte%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">I. 无约束优化（optimisation sans contrainte）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E7%9B%B4%E6%8E%A5%E6%B3%95"><span class="toc-number">6.2.</span> <span class="toc-text">1.1  直接法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">6.3.</span> <span class="toc-text">1.2 迭代法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#II-%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%89"><span class="toc-number">6.4.</span> <span class="toc-text">II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#KKT"><span class="toc-number">6.4.0.1.</span> <span class="toc-text">KKT</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%85%83"><span class="toc-number">6.4.0.2.</span> <span class="toc-text">二元</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#III-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.</span> <span class="toc-text">III. 凸优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%87%B8%E9%9B%86"><span class="toc-number">6.5.1.</span> <span class="toc-text">1. 凸集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%87%B8%E9%9B%86%E4%BE%8B%E5%AD%90"><span class="toc-number">6.5.1.1.</span> <span class="toc-text">常见凸集例子</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%87%B8%E5%87%BD%E6%95%B0"><span class="toc-number">6.5.2.</span> <span class="toc-text">2. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#def"><span class="toc-number">6.5.2.1.</span> <span class="toc-text">$def.$</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%89"><span class="toc-number">6.5.2.2.</span> <span class="toc-text">一阶判定（严格凸去掉等号）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%8C%E6%AD%A3%E5%AE%9A%EF%BC%89"><span class="toc-number">6.5.2.3.</span> <span class="toc-text">二阶判定（严格凸去掉等号，正定）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E"><span class="toc-number">6.5.2.4.</span> <span class="toc-text">证明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#soit-J%EF%BC%9AV-rightarrow-R-continue-sur-V"><span class="toc-number">6.5.2.5.</span> <span class="toc-text">$soit J：V \rightarrow  R, continue  \ sur \  V$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.3.</span> <span class="toc-text">3. 凸优化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA"><span class="toc-number">7.</span> <span class="toc-text">概率论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.1.</span> <span class="toc-text">基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="toc-number">7.0.2.</span> <span class="toc-text">随机变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0-fonction-de-repartition-amp-%E6%A6%82%E7%8E%87%E5%AF%86%E5%BA%A6%E5%87%BD%E6%95%B0-la-densite-de-probabilite"><span class="toc-number">7.0.3.</span> <span class="toc-text">分布函数( fonction de répartition ) &amp; 概率密度函数( la densité de probabilité )</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.3.1.</span> <span class="toc-text">分布函数</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.3.1.0.1.</span> <span class="toc-text">1. 概念</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2-%E6%80%A7%E8%B4%A8"><span class="toc-number">7.0.3.1.0.2.</span> <span class="toc-text">2. 性质</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#3-%E5%88%86%E4%BD%8D%E7%82%B9-quantile"><span class="toc-number">7.0.3.1.0.3.</span> <span class="toc-text">3. 分位点( quantile )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#4-%E5%87%A0%E4%B8%AA%E6%80%A7%E8%B4%A8-moments"><span class="toc-number">7.0.3.1.0.4.</span> <span class="toc-text">4. 几个性质 ( moments )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#5-%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">7.0.3.1.0.5.</span> <span class="toc-text">5. 重要不等式</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E5%BE%81%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.4.</span> <span class="toc-text">特征函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B%E6%B1%82%E8%A7%A3"><span class="toc-number">7.0.5.</span> <span class="toc-text">常见题型求解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B2%E7%9F%A5-f-X-Y-x-y-Z-g-X-Y-pour-obtenir-f-Z-z"><span class="toc-number">7.0.5.1.</span> <span class="toc-text">已知 $f_{X,Y}(x,y), \ Z &#x3D; g(X,Y), \ pour \  obtenir \ f_Z(z)$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86-Central-Limit-Theorem"><span class="toc-number">7.0.6.</span> <span class="toc-text">中心极限定理 Central Limit Theorem</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B"><span class="toc-number">7.0.7.</span> <span class="toc-text">大数定律</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%B1%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E4%BE%9D%E6%A6%82%E7%8E%87%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.1.</span> <span class="toc-text">弱大数定律（依概率收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">7.0.7.2.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%BA%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E5%87%A0%E4%B9%8E%E5%BF%85%E7%84%B6%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.3.</span> <span class="toc-text">强大数定律（几乎必然收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A6%82%E7%8E%87%E4%B8%8E%E9%A2%91%E7%8E%87%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.4.</span> <span class="toc-text">伯努利大数定理：揭示了概率与频率的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%9B%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E7%AE%97%E6%9C%AF%E5%B9%B3%E5%9D%87%E5%80%BC%E5%92%8C%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.5.</span> <span class="toc-text">辛利大数定理：揭示了算术平均值和数学期望的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A0%B7%E6%9C%AC%E5%9D%87%E5%80%BC%E5%92%8C%E7%9C%9F%E5%AE%9E%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.6.</span> <span class="toc-text">切比雪夫大数定律：揭示了样本均值和真实期望的关系</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-number">8.</span> <span class="toc-text">统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%EF%BC%88MLE%EF%BC%89"><span class="toc-number">8.0.1.</span> <span class="toc-text">1. 最大似然估计（MLE）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%E6%A6%82%E7%8E%87%E4%BC%B0%E8%AE%A1-MAP"><span class="toc-number">8.0.2.</span> <span class="toc-text">2. 贝叶斯最大后验概率估计(MAP)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%85%AC%E5%BC%8F"><span class="toc-number">8.0.2.1.</span> <span class="toc-text">2.1 贝叶斯公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%EF%BC%88MAP%EF%BC%89%EF%BC%9A"><span class="toc-number">8.0.2.2.</span> <span class="toc-text">2.2 最大后验（MAP）：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1"><span class="toc-number">8.0.3.</span> <span class="toc-text">3. 贝叶斯估计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E5%80%BC%E5%92%8C%E9%80%BC%E8%BF%91"><span class="toc-number">9.</span> <span class="toc-text">插值和逼近</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.1.</span> <span class="toc-text">牛顿插值法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.2.</span> <span class="toc-text">拉格朗日插值法</span></a></li></ol></li></ol>
-    </nav>
-  </div>
-</aside>
-
-<main class="main" role="main">
-  <div class="content">
-  <article id="post-MATHS/一些数学知识" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
-    
-    <div class="article-header">
-      
+    <div class="content index py4">
         
-  
-    <h1 class="article-title" itemprop="name">
-      MATHS
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        MATHS
     </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Zilong WU</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-02-26T23:00:00.000Z" itemprop="datePublished">2022-02-27</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/COURS/">COURS</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/ECN/" rel="tag">ECN</a>
+    </div>
+
+
+    </div>
+  </header>
   
 
-      
-      <div class="article-meta">
-        <span class="article-date">
-    <i class="icon icon-calendar-check"></i>
-	<a href="/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/" class="article-date">
-	  <time datetime="2022-02-26T23:00:00.000Z" itemprop="datePublished">2022-02-27</time>
-	</a>
-</span>
-        
-  <span class="article-category">
-    <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/COURS/">COURS</a>
-  </span>
-
-        
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>
-	<a class="article-tag-link-link" href="/tags/ECN/" rel="tag">ECN</a>
-  </span>
-
-
-        
-
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/#comments" class="article-comment-link">Comments</a></span>
-        
-	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 6.1k(words)</span>
-	
-	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 27(minutes)</span>
-	
-
-      </div>
-    </div>
-    <div class="article-entry marked-body" itemprop="articleBody">
-      
-        <h1 id="一些高数"><a href="#一些高数" class="headerlink" title="一些高数"></a>一些高数</h1><h4 id="1-梯度、散度、旋度"><a href="#1-梯度、散度、旋度" class="headerlink" title="1. 梯度、散度、旋度"></a>1. 梯度、散度、旋度</h4><p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/e6c9d24egy1gzspt77792j20u01327d2.jpg" alt="e6c9d24egy1gzspt77792j20u01327d2" style="zoom:33%;" /></p>
+  <div class="content" itemprop="articleBody">
+    <h1 id="一些高数"><a href="#一些高数" class="headerlink" title="一些高数"></a>一些高数</h1><h4 id="1-梯度、散度、旋度"><a href="#1-梯度、散度、旋度" class="headerlink" title="1. 梯度、散度、旋度"></a>1. 梯度、散度、旋度</h4><p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/e6c9d24egy1gzspt77792j20u01327d2.jpg" alt="e6c9d24egy1gzspt77792j20u01327d2" style="zoom:33%;" /></p>
 <p><img src="/Users/wuzilong/Desktop/my_blog/source/_posts/MATHS/e6c9d24egy1h0dmnvcldnj21dg0ngwlu.jpg" alt="e6c9d24egy1h0dmnvcldnj21dg0ngwlu" style="zoom:33%;" /></p>
 <p>拉普拉斯算子是黑塞矩阵的迹</p>
 <p><img src="/Users/wuzilong/Library/Application%20Support/typora-user-images/23f4db415be866163432946603c07edbc4a21a41.svg" alt="黑塞矩阵">黑塞矩阵</p>
@@ -918,211 +800,142 @@ h_i(x) = 0, i = 1,...,p</script><p>其中 $g_i(x)$是不等式约束，为凸函
 <p>$p_n(x) = \sum_{i=0}^n y_iL_i(x) $  and  $L_i(x) =\prod_{j=0,j \neq i }^{n} \frac{x-x_j}{x_i-x_j}$</p>
 <p>$f(x) - p_n(x) = \pi_n(x) \frac{f^{(n+1)(\epsilon_x)}}{(n+1)!} \ and \ \ \pi_n(x) = \prod_{i=0}^{n}(x-x_i)$</p>
 
-      
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li>
+        
+      </ul>
     </div>
-    <div class="article-footer">
-      <blockquote class="mt-2x">
-  <ul class="post-copyright list-unstyled">
-    
-    <li class="post-copyright-link hidden-xs">
-      <strong>本文链接：</strong>
-      <a href="http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/" title="MATHS" target="_blank" rel="external">http://littlewuuu.com/2022/02/27/MATHS/一些数学知识/</a>
-    </li>
-    
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-</blockquote>
 
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%AB%98%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">一些高数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E6%A2%AF%E5%BA%A6%E3%80%81%E6%95%A3%E5%BA%A6%E3%80%81%E6%97%8B%E5%BA%A6"><span class="toc-number">1.0.0.1.</span> <span class="toc-text">1. 梯度、散度、旋度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99"><span class="toc-number">1.0.0.2.</span> <span class="toc-text">2. 克莱姆法则</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E6%9F%B1%E5%9D%90%E6%A0%87"><span class="toc-number">1.0.0.3.</span> <span class="toc-text">3. 柱坐标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F"><span class="toc-number">1.0.0.4.</span> <span class="toc-text">4.欧拉公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.</span> <span class="toc-text">5. 泰勒展开</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1-%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.1.</span> <span class="toc-text">5.1  常见函数的泰勒展开</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2-%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E6%B3%B0%E5%8B%92%E5%B1%95%E5%BC%80"><span class="toc-number">1.0.0.5.2.</span> <span class="toc-text">5.2 多元函数泰勒展开</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E4%BB%BF%E5%B0%84%E5%87%BD%E6%95%B0%E5%92%8C%E7%BA%BF%E6%80%A7%E5%87%BD%E6%95%B0"><span class="toc-number">1.0.0.6.</span> <span class="toc-text">6. 仿射函数和线性函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-%E5%88%A9%E6%99%AE%E5%B8%8C%E8%8C%A8%E8%BF%9E%E7%BB%AD-Application-lipschitzienne"><span class="toc-number">1.0.0.7.</span> <span class="toc-text">7. 利普希茨连续 (Application lipschitzienne)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E5%A4%8D%E6%95%B0F"><span class="toc-number">1.0.0.8.</span> <span class="toc-text">8. 复数F</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#8-1-%E5%87%A0%E7%A7%8D%E8%A1%A8%E7%8E%B0%E5%BD%A2%E5%BC%8F"><span class="toc-number">1.0.0.8.1.</span> <span class="toc-text">8.1 几种表现形式</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">线性代数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E5%88%86%E7%B1%BB"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">矩阵分类</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E9%80%86"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">证明矩阵可逆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E%E7%9F%A9%E9%98%B5%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">证明矩阵可对角化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9F%A9%E9%98%B5%E8%BF%90%E7%AE%97"><span class="toc-number">2.0.0.4.</span> <span class="toc-text">矩阵运算%</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E6%95%B0%E5%92%8C%E8%8C%83%E6%95%B0"><span class="toc-number">2.1.</span> <span class="toc-text">条件数和范数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Gerchgarin-Hadmard-%E5%AE%9A%E7%90%86"><span class="toc-number">2.2.</span> <span class="toc-text">$Gerchgarin-Hadmard$ 定理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%96%E5%B0%94%E5%9C%86%E7%9B%98%E5%AE%9A%E7%90%86%EF%BC%88%E4%BC%B0%E8%AE%A1%E7%9F%A9%E9%98%B5%E7%89%B9%E5%BE%81%E5%80%BC%E7%9A%84%E8%8C%83%E5%9B%B4%EF%BC%89"><span class="toc-number">2.3.</span> <span class="toc-text">盖尔圆盘定理（估计矩阵特征值的范围）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E9%99%90%E5%B7%AE%E5%88%86%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">有限差分法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">迭代法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%9F%A5%E8%AF%86%EF%BC%9A"><span class="toc-number">4.1.</span> <span class="toc-text">小知识：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0-LU-%E5%88%86%E8%A7%A3"><span class="toc-number">4.2.</span> <span class="toc-text">0. LU 分解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Jacobi"><span class="toc-number">4.3.</span> <span class="toc-text">1. Jacobi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Gauss-Seidel"><span class="toc-number">4.4.</span> <span class="toc-text">2. Gauss-Seidel</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Relaxation%EF%BC%88%E9%80%90%E6%AC%A1%E8%B6%85%E6%9D%BE%E5%BC%9B-SOR%EF%BC%89"><span class="toc-number">4.5.</span> <span class="toc-text">3. Relaxation（逐次超松弛&#x2F;SOR）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92-amp-%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">线性回归&amp;最小二乘法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-y-ax-b"><span class="toc-number">5.0.1.</span> <span class="toc-text">$1.\ y&#x3D;ax+b$</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0%E8%BD%AC%E6%8D%A2%E4%B8%80%E4%B8%8B"><span class="toc-number">5.0.1.0.1.</span> <span class="toc-text">对数转换一下</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-h-theta-x-theta-0-theta-1-x-theta-2-x-2-%E2%80%A6-theta-n-x-n"><span class="toc-number">5.0.2.</span> <span class="toc-text">2. $h_\theta(x) &#x3D; \theta_0 + \theta_1 x  \ + \ \theta_2 x^2 \ + … + \  \theta_n x^n $</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95"><span class="toc-number">5.0.2.0.1.</span> <span class="toc-text">求解方法</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text">优化问题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#I-%E6%97%A0%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%EF%BC%88optimisation-sans-contrainte%EF%BC%89"><span class="toc-number">6.1.</span> <span class="toc-text">I. 无约束优化（optimisation sans contrainte）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E7%9B%B4%E6%8E%A5%E6%B3%95"><span class="toc-number">6.2.</span> <span class="toc-text">1.1  直接法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E8%BF%AD%E4%BB%A3%E6%B3%95"><span class="toc-number">6.3.</span> <span class="toc-text">1.2 迭代法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#II-%E7%BA%A6%E6%9D%9F%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98%EF%BC%88%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%8C%E5%8F%AA%E6%9C%89%E7%AD%89%E5%BC%8F%E7%BA%A6%E6%9D%9F%EF%BC%89"><span class="toc-number">6.4.</span> <span class="toc-text">II. 约束优化问题（不等式等式约束，只有不等式约束，只有等式约束）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#KKT"><span class="toc-number">6.4.0.1.</span> <span class="toc-text">KKT</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%85%83"><span class="toc-number">6.4.0.2.</span> <span class="toc-text">二元</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#III-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.</span> <span class="toc-text">III. 凸优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%87%B8%E9%9B%86"><span class="toc-number">6.5.1.</span> <span class="toc-text">1. 凸集</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%87%B8%E9%9B%86%E4%BE%8B%E5%AD%90"><span class="toc-number">6.5.1.1.</span> <span class="toc-text">常见凸集例子</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%87%B8%E5%87%BD%E6%95%B0"><span class="toc-number">6.5.2.</span> <span class="toc-text">2. 凸函数</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#def"><span class="toc-number">6.5.2.1.</span> <span class="toc-text">$def.$</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%89"><span class="toc-number">6.5.2.2.</span> <span class="toc-text">一阶判定（严格凸去掉等号）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E9%98%B6%E5%88%A4%E5%AE%9A%EF%BC%88%E4%B8%A5%E6%A0%BC%E5%87%B8%E5%8E%BB%E6%8E%89%E7%AD%89%E5%8F%B7%EF%BC%8C%E6%AD%A3%E5%AE%9A%EF%BC%89"><span class="toc-number">6.5.2.3.</span> <span class="toc-text">二阶判定（严格凸去掉等号，正定）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%81%E6%98%8E"><span class="toc-number">6.5.2.4.</span> <span class="toc-text">证明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#soit-J%EF%BC%9AV-rightarrow-R-continue-sur-V"><span class="toc-number">6.5.2.5.</span> <span class="toc-text">$soit J：V \rightarrow  R, continue  \ sur \  V$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%87%B8%E4%BC%98%E5%8C%96"><span class="toc-number">6.5.3.</span> <span class="toc-text">3. 凸优化</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA"><span class="toc-number">7.</span> <span class="toc-text">概率论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.1.</span> <span class="toc-text">基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="toc-number">7.0.2.</span> <span class="toc-text">随机变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0-fonction-de-repartition-amp-%E6%A6%82%E7%8E%87%E5%AF%86%E5%BA%A6%E5%87%BD%E6%95%B0-la-densite-de-probabilite"><span class="toc-number">7.0.3.</span> <span class="toc-text">分布函数( fonction de répartition ) &amp; 概率密度函数( la densité de probabilité )</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.3.1.</span> <span class="toc-text">分布函数</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="toc-number">7.0.3.1.0.1.</span> <span class="toc-text">1. 概念</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#2-%E6%80%A7%E8%B4%A8"><span class="toc-number">7.0.3.1.0.2.</span> <span class="toc-text">2. 性质</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#3-%E5%88%86%E4%BD%8D%E7%82%B9-quantile"><span class="toc-number">7.0.3.1.0.3.</span> <span class="toc-text">3. 分位点( quantile )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#4-%E5%87%A0%E4%B8%AA%E6%80%A7%E8%B4%A8-moments"><span class="toc-number">7.0.3.1.0.4.</span> <span class="toc-text">4. 几个性质 ( moments )</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#5-%E9%87%8D%E8%A6%81%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="toc-number">7.0.3.1.0.5.</span> <span class="toc-text">5. 重要不等式</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E5%BE%81%E5%87%BD%E6%95%B0"><span class="toc-number">7.0.4.</span> <span class="toc-text">特征函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%A2%98%E5%9E%8B%E6%B1%82%E8%A7%A3"><span class="toc-number">7.0.5.</span> <span class="toc-text">常见题型求解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B7%B2%E7%9F%A5-f-X-Y-x-y-Z-g-X-Y-pour-obtenir-f-Z-z"><span class="toc-number">7.0.5.1.</span> <span class="toc-text">已知 $f_{X,Y}(x,y), \ Z &#x3D; g(X,Y), \ pour \  obtenir \ f_Z(z)$</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86-Central-Limit-Theorem"><span class="toc-number">7.0.6.</span> <span class="toc-text">中心极限定理 Central Limit Theorem</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B"><span class="toc-number">7.0.7.</span> <span class="toc-text">大数定律</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%B1%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E4%BE%9D%E6%A6%82%E7%8E%87%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.1.</span> <span class="toc-text">弱大数定律（依概率收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link"><span class="toc-number">7.0.7.2.</span> <span class="toc-text"></span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%BA%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%88%E5%87%A0%E4%B9%8E%E5%BF%85%E7%84%B6%E6%94%B6%E6%95%9B%EF%BC%89"><span class="toc-number">7.0.7.3.</span> <span class="toc-text">强大数定律（几乎必然收敛）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A6%82%E7%8E%87%E4%B8%8E%E9%A2%91%E7%8E%87%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.4.</span> <span class="toc-text">伯努利大数定理：揭示了概率与频率的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BE%9B%E5%88%A9%E5%A4%A7%E6%95%B0%E5%AE%9A%E7%90%86%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E7%AE%97%E6%9C%AF%E5%B9%B3%E5%9D%87%E5%80%BC%E5%92%8C%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.5.</span> <span class="toc-text">辛利大数定理：揭示了算术平均值和数学期望的关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%EF%BC%9A%E6%8F%AD%E7%A4%BA%E4%BA%86%E6%A0%B7%E6%9C%AC%E5%9D%87%E5%80%BC%E5%92%8C%E7%9C%9F%E5%AE%9E%E6%9C%9F%E6%9C%9B%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">7.0.7.6.</span> <span class="toc-text">切比雪夫大数定律：揭示了样本均值和真实期望的关系</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-number">8.</span> <span class="toc-text">统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%9C%80%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1%EF%BC%88MLE%EF%BC%89"><span class="toc-number">8.0.1.</span> <span class="toc-text">1. 最大似然估计（MLE）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%E6%A6%82%E7%8E%87%E4%BC%B0%E8%AE%A1-MAP"><span class="toc-number">8.0.2.</span> <span class="toc-text">2. 贝叶斯最大后验概率估计(MAP)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%85%AC%E5%BC%8F"><span class="toc-number">8.0.2.1.</span> <span class="toc-text">2.1 贝叶斯公式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-%E6%9C%80%E5%A4%A7%E5%90%8E%E9%AA%8C%EF%BC%88MAP%EF%BC%89%EF%BC%9A"><span class="toc-number">8.0.2.2.</span> <span class="toc-text">2.2 最大后验（MAP）：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%B0%E8%AE%A1"><span class="toc-number">8.0.3.</span> <span class="toc-text">3. 贝叶斯估计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%92%E5%80%BC%E5%92%8C%E9%80%BC%E8%BF%91"><span class="toc-number">9.</span> <span class="toc-text">插值和逼近</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%9B%E9%A1%BF%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.1.</span> <span class="toc-text">牛顿插值法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%8F%92%E5%80%BC%E6%B3%95"><span class="toc-number">9.2.</span> <span class="toc-text">拉格朗日插值法</span></a></li></ol></li></ol>
+    </div>
 
-<div class="panel panel-default panel-badger">
-  <div class="panel-body">
-    <figure class="media">
-      <div class="media-left">
-        <a href="https://github.com/littlewuuu" target="_blank" class="img-burn thumb-sm visible-lg">
-          <img src="/images/meee.jpg" class="img-rounded w-full" alt="">
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/littlewuuu" target="_blank"><span class="text-dark">Wuuu</span><small class="ml-1x"></small></a></h3>
-        <div>争取每天都能写完 TP</div>
-      </div>
-    </figure>
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&text=MATHS"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&is_video=false&description=MATHS"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=MATHS&body=Check out this article: http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&title=MATHS"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&name=MATHS&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://littlewuuu.com/2022/02/27/MATHS/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/&t=MATHS"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
   </div>
 </div>
 
-
-    </div>
-  </article>
-  
-    
-  <section id="comments">
-  	
-      <div id="vcomments"></div>
-    
-  </section>
-
-
-  
-</div>
-
-  <nav class="bar bar-footer clearfix" data-stick-bottom>
-  <div class="bar-inner">
-  
-  <ul class="pager pull-left">
-    
-    <li class="prev">
-      <a href="/2022/02/27/HTML+CSS/HTML+CSS/" title="HTML+CSS"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
-    </li>
-    
-    
-    <li class="next">
-      <a href="/2022/02/11/%E7%AE%97%E6%B3%95%E6%A1%86%E6%9E%B6/%E7%AE%97%E6%B3%95%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F/" title="算法框架"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
-    </li>
-    
-    
-    <li class="toggle-toc">
-      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="Catalogue" role="button">
-        <span>[&nbsp;</span><span>Catalogue</span>
-        <i class="text-collapsed icon icon-anchor"></i>
-        <i class="text-in icon icon-close"></i>
-        <span>]</span>
-      </a>
-    </li>
-    
-  </ul>
-  
-  
-  
-  <div class="bar-right">
-    
-  </div>
-  </div>
-</nav>
-  
-
-
-</main>
-
-  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	
-	
-    <ul class="social-links">
-    	
-        <li><a href="https://github.com/littlewuuu" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
         
-        <li><a href="https://weibo.com/littlewuu" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
-        
-    </ul>
-
-    <div class="copyright">
-    	
-        <div class="publishby">
-        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
-        </div>
-    </div>
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2022
+    Zilong WU
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
 </footer>
-  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script>
-window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
 
-<script src="/js/plugin.min.js"></script>
+    </div>
+    <!-- styles -->
 
 
-<script src="/js/application.js"></script>
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
 
 
-    <script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
 
 
 
 
+<!-- clipboard -->
 
-
-   
-
-
-
-
-   
-    
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
   <script type="text/javascript">
-  var GUEST = ['nick', 'mail', 'link'];
-  var meta = 'nick,mail,link';
-  meta = meta.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#vcomments',
-    verify: false,
-    notify: false,
-    appId: 'Pa4f8w5r06eQiW8omEO65tSa-MdYXbMMI',
-    appKey: 'Tk8949QkzxjnbpStpWDrDHJT',
-    placeholder: 'Not ready yet',
-    avatar: 'mm',
-    meta: meta,
-    pageSize: '10' || 10,
-    visitor: false
-  });
-  </script>
-
-     
-
-
-
-  <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.js"></script>
-  <script>
-  //利用 FancyBox 实现点击图片放大
-  $(document).ready(function() {
-    $('article img').not('[hidden]').not('.panel-body img').each(function() {
-      var $image = $(this);
-      var imageCaption = $image.attr('alt');
-      var $imageWrapLink = $image.parent('a');
-      if ($imageWrapLink.length < 1) {
-        var src = this.getAttribute('src');
-        var idx = src.lastIndexOf('?');
-        if (idx != -1) {
-          src = src.substring(0, idx);
-        }
-        $imageWrapLink = $image.wrap('<a href="' + src + '"></a>').parent('a');
-      }
-      $imageWrapLink.attr('data-fancybox', 'images');
-      if (imageCaption) {
-        $imageWrapLink.attr('data-caption', imageCaption);
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
       }
     });
-    $().fancybox({
-      selector: '[data-fancybox="images"]',
-      hash: false,
-      loop: false,
-    });
-  });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
   </script>
 
 
+<script src="/js/main.js"></script>
 
+<!-- search -->
 
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
 
 </body>
 </html>
