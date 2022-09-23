@@ -47,7 +47,9 @@
     <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
   
   
-<meta name="generator" content="Hexo 6.0.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head>
 
 
 <body class="main-center theme-blue no-sidebar" itemscope itemtype="http://schema.org/WebPage">
@@ -263,7 +265,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/27/SSTEM/SSTEM/#comments" class="article-comment-link">Comments</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 398(words)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 399(words)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1(minutes)</span>
@@ -279,9 +281,7 @@
 <img src ="https://i.imgur.com/FWt6tcv.png" width=40%/>
 </div>
 
-<h4 id="3-Modele-Physique-des-Donnees-加上每个属性的类型，integer，varchar-什么的"><a href="#3-Modele-Physique-des-Donnees-加上每个属性的类型，integer，varchar-什么的" class="headerlink" title="3. Modele Physique des Données (加上每个属性的类型，integer，varchar 什么的)"></a>3. Modele Physique des Données (加上每个属性的类型，integer，varchar 什么的)</h4><p><em>也是关系模型</em></p>
-<blockquote>
-</blockquote>
+<h4 id="3-Modele-Physique-des-Donnees-加上每个属性的类型，integer，varchar-什么的"><a href="#3-Modele-Physique-des-Donnees-加上每个属性的类型，integer，varchar-什么的" class="headerlink" title="3. Modele Physique des Données (加上每个属性的类型，integer，varchar 什么的)"></a>3. Modele Physique des Données (加上每个属性的类型，integer，varchar 什么的)</h4><p><em>也是关系模型</em><br>&gt;</p>
 <div align="center">
 <img src ="https://i.imgur.com/oUSR1rY.png" width=60%/>
 </div>
@@ -290,16 +290,14 @@
 <p>DATE 只有日期<br>TIMESTAMP 包括日期和时间</p>
 </blockquote>
 <h1 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h1><h2 id="基本格式"><a href="#基本格式" class="headerlink" title="基本格式"></a>基本格式</h2><blockquote>
-<p><strong>SELECT</strong> [ <strong>DISTINCT</strong> ] [ <strong>COUNT( )</strong> / <strong>SUM( )</strong> / <strong>AVG( )</strong> / <strong>MAX( )</strong> / <strong>MIN( )</strong>]<br><strong>FROM</strong> [ <strong>NARURAL JOIN</strong> ]<br><strong>WHERE</strong> [ <strong>AND</strong>/<strong>OR</strong>/<strong>NOT</strong>/<strong>BETWEEN AND</strong>/ ]<br>[ &lt;&gt; 不等于 ] [ IN(…) ]<br>[ LIKE/ILIKE %(remplace quel nombre de caractères),_ (remplace un caractères) ]<br>[ IS NOT NULL/IS NULL ]<br>[ UPPER nom LIKE UPPER(‘ass’) ]<br>[ IN SELECT (是 where 后面的在不在这个 select 里面)]<br>    <div align="center"><br>    <img src ="https://i.imgur.com/07VLDTH.png" width=60%/><br>    </div><br>    <strong>GROUP BY</strong> [ ]<br>    <strong>ORDER BY</strong> [ 可以有多个 order by 的对象，ORDER BY 语句默认按照升序对记录进行排序。要按照降序对记录进行排序，可以使用 DESC 关键字。 ]</p>
-</blockquote>
-<blockquote>
+<p><strong>SELECT</strong> [ <strong>DISTINCT</strong> ] [ <strong>COUNT( )</strong> / <strong>SUM( )</strong> / <strong>AVG( )</strong> / <strong>MAX( )</strong> / <strong>MIN( )</strong>]<br><strong>FROM</strong> [ <strong>NARURAL JOIN</strong> ]<br><strong>WHERE</strong> [ <strong>AND</strong>/<strong>OR</strong>/<strong>NOT</strong>/<strong>BETWEEN AND</strong>/ ]<br>[ &lt;&gt; 不等于 ] [ IN(…) ]<br>[ LIKE/ILIKE %(remplace quel nombre de caractères),_ (remplace un caractères) ]<br>[ IS NOT NULL/IS NULL ]<br>[ UPPER nom LIKE UPPER(‘ass’) ]<br>[ IN SELECT (是 where 后面的在不在这个 select 里面)]<br>    <div align="center">
+    <img src ="https://i.imgur.com/07VLDTH.png" width=60%/>
+    </div><br>    <strong>GROUP BY</strong> [ ]<br>    <strong>ORDER BY</strong> [ 可以有多个 order by 的对象，ORDER BY 语句默认按照升序对记录进行排序。要按照降序对记录进行排序，可以使用 DESC 关键字。 ]</p>
 <p><strong>UNION</strong><br>操作符用于合并两个或多个 SELECT 语句的结果集。UNION 内部的每个 SELECT 语句必须拥有相同数量的列。列也必须拥有相似的数据类型。同时，每个 SELECT 语句中的列的顺序必须相同。<br>UNION 结果集中的列名总是等于 UNION 中第一个 SELECT 语句中的列名。</p>
 </blockquote>
 <h2 id="增删查改"><a href="#增删查改" class="headerlink" title="增删查改"></a>增删查改</h2><h3 id="数据库操作"><a href="#数据库操作" class="headerlink" title="数据库操作"></a>数据库操作</h3><blockquote>
 <p><strong>CREATE DATABASE</strong> <em>nom</em><br><strong>DROP DATABASE</strong> <em>nom</em></p>
-</blockquote>
-<h3 id="表操作"><a href="#表操作" class="headerlink" title="表操作"></a>表操作</h3><blockquote>
-<p><strong>CREATE TABLE</strong>（）<br><strong>INSERT INTO</strong> table_name [ ( 可以选择属性 ) ] <strong>VALUES</strong> ( 属性值 )<br><strong>UPDATE</strong> table_name <strong>SET</strong> <strong>WHERE</strong><br><strong>DELETE</strong> <strong>FROM</strong> teble_name <strong>WHERE</strong><br><strong>增删列</strong></p>
+<h3 id="表操作"><a href="#表操作" class="headerlink" title="表操作"></a>表操作</h3><p><strong>CREATE TABLE</strong>（）<br><strong>INSERT INTO</strong> table_name [ ( 可以选择属性 ) ] <strong>VALUES</strong> ( 属性值 )<br><strong>UPDATE</strong> table_name <strong>SET</strong> <strong>WHERE</strong><br><strong>DELETE</strong> <strong>FROM</strong> teble_name <strong>WHERE</strong><br><strong>增删列</strong></p>
 <blockquote>
 <p><strong>ALTER TABLE</strong> table_name<br><strong>ADD</strong> column_name datatype/<strong>DROP COLUMN</strong> column_name<br><strong>更改属性</strong></p>
 <blockquote>

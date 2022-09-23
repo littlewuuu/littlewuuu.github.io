@@ -18,12 +18,12 @@
   
   
   <title>环境变量修改 | Bonjour!</title>
-  <meta name="description" content="MacOS PATH环境变量相关的文件按下述顺序加载：  &#x2F;etc&#x2F;profile &#x2F;etc&#x2F;paths &#x2F;etc&#x2F;bashrc ~&#x2F;.bash_profile 或 ~&#x2F;.bashrc  ~&#x2F;.bash_login  &#x2F;etc&#x2F;profile, &#x2F;etc&#x2F;paths, &#x2F;etc&#x2F;bashrc 是系统级别配置文件，系统启动就会加载。 后面几个是当前用户级的环境变量，按照从前往后的顺序读取，如果 ~&#x2F;">
+  <meta name="description" content="MacOS PATH环境变量相关的文件按下述顺序加载：  &#x2F;etc&#x2F;profile &#x2F;etc&#x2F;paths &#x2F;etc&#x2F;bashrc ~&#x2F;.bash_profile 或 ~&#x2F;.bashrc ~&#x2F;.bash_login  &#x2F;etc&#x2F;profile, &#x2F;etc&#x2F;paths, &#x2F;etc&#x2F;bashrc 是系统级别配置文件，系统启动就会加载。 后面几个是当前用户级的环境变量，按照从前往后的顺序读取，如果 ~&#x2F;.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="环境变量修改">
 <meta property="og:url" content="http://littlewuuu.com/2022/09/22/MacOS%E7%9A%84PATH%E4%BF%AE%E6%94%B9/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="MacOS PATH环境变量相关的文件按下述顺序加载：  &#x2F;etc&#x2F;profile &#x2F;etc&#x2F;paths &#x2F;etc&#x2F;bashrc ~&#x2F;.bash_profile 或 ~&#x2F;.bashrc  ~&#x2F;.bash_login  &#x2F;etc&#x2F;profile, &#x2F;etc&#x2F;paths, &#x2F;etc&#x2F;bashrc 是系统级别配置文件，系统启动就会加载。 后面几个是当前用户级的环境变量，按照从前往后的顺序读取，如果 ~&#x2F;">
+<meta property="og:description" content="MacOS PATH环境变量相关的文件按下述顺序加载：  &#x2F;etc&#x2F;profile &#x2F;etc&#x2F;paths &#x2F;etc&#x2F;bashrc ~&#x2F;.bash_profile 或 ~&#x2F;.bashrc ~&#x2F;.bash_login  &#x2F;etc&#x2F;profile, &#x2F;etc&#x2F;paths, &#x2F;etc&#x2F;bashrc 是系统级别配置文件，系统启动就会加载。 后面几个是当前用户级的环境变量，按照从前往后的顺序读取，如果 ~&#x2F;.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-09-21T22:00:00.000Z">
 <meta property="article:modified_time" content="2022-09-22T12:15:30.402Z">
@@ -46,7 +46,9 @@
     <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
   
   
-<meta name="generator" content="Hexo 6.0.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head>
 
 
 <body class="main-center theme-blue no-sidebar" itemscope itemtype="http://schema.org/WebPage">
@@ -272,7 +274,7 @@
 <li><code>/etc/profile</code></li>
 <li><code>/etc/paths</code></li>
 <li><code>/etc/bashrc</code></li>
-<li><code>~/.bash_profile</code> 或 <code>~/.bashrc </code></li>
+<li><code>~/.bash_profile</code> 或 <code>~/.bashrc</code></li>
 <li><code>~/.bash_login</code></li>
 </ol>
 <p><code>/etc/profile</code>, <code>/etc/paths</code>, <code>/etc/bashrc</code> 是系统级别配置文件，系统启动就会加载。</p>
@@ -281,17 +283,17 @@
 <h2 id="全局修改"><a href="#全局修改" class="headerlink" title="全局修改"></a>全局修改</h2><h2 id="用户级别修改"><a href="#用户级别修改" class="headerlink" title="用户级别修改"></a>用户级别修改</h2><p>一般都是修改<code>~/.bash_profile</code>文件（Linux中是<code>~/.bashrc</code>，而Mac OS是<code>~/.bash_profile</code>）</p>
 <ol>
 <li><p>检查是不是在环境变量里了</p>
- <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $PATH</span><br></pre></td></tr></table></figure></li>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $PATH</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>```java<br> open ~/.bash_profile</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">如果遇到 permission denied，使用</span><br><span class="line"></span><br><span class="line">```java</span><br><span class="line">sudo chown username ~/.bash_profile</span><br></pre></td></tr></table></figure>
-
 <p> 修改用户权限</p>
 </li>
 <li><p>添加后保存</p>
- <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 注释</span><br><span class="line">export <span class="string">&quot;PATH=路径:$PATH&quot;</span></span><br></pre></td></tr></table></figure></li>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 注释</span><br><span class="line">export <span class="string">&quot;PATH=路径:$PATH&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
 <li><p>输入使修改生效</p>
  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bash_profile</span><br></pre></td></tr></table></figure>
-
 </li>
 </ol>
 
@@ -351,7 +353,7 @@
     
     
     <li class="next">
-      <a href="/2022/08/20/CCUBE/CCUBE(final%20test%20note)/" title="ccube cheat list"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2022/08/20/Francaise/%E6%96%B0%E9%97%BB%E5%95%A5%E7%9A%84/" title="新闻啥的"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     

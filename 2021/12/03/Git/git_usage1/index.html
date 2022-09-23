@@ -18,12 +18,12 @@
   
   
   <title>教会自己用 git | Bonjour!</title>
-  <meta name="description" content="#实现本地文件和 Github 仓库同步##Macbook Air M1   ssh 等配置  在 GitHub 上创建仓库  准备好本地的文件存放位置  切换终端目录到本地文件夹  初始化本地文件夹 1git init 连接到 GitHub 仓库  1git remote add origin 仓库网址（注意是 ssh 不是 url） 切换  1git branch -M main  把想要上传">
+  <meta name="description" content="实现本地文件和 Github 仓库同步Macbook Air M1 ssh 等配置 在 GitHub 上创建仓库 准备好本地的文件存放位置 切换终端目录到本地文件夹 初始化本地文件夹1git init 连接到 GitHub 仓库 1git remote add origin 仓库网址（注意是 ssh 不是 url） 切换 1git branch -M main 把想要上传的文件拖放到本地文件夹 上">
 <meta property="og:type" content="article">
 <meta property="og:title" content="教会自己用 git">
 <meta property="og:url" content="http://littlewuuu.com/2021/12/03/Git/git_usage1/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="#实现本地文件和 Github 仓库同步##Macbook Air M1   ssh 等配置  在 GitHub 上创建仓库  准备好本地的文件存放位置  切换终端目录到本地文件夹  初始化本地文件夹 1git init 连接到 GitHub 仓库  1git remote add origin 仓库网址（注意是 ssh 不是 url） 切换  1git branch -M main  把想要上传">
+<meta property="og:description" content="实现本地文件和 Github 仓库同步Macbook Air M1 ssh 等配置 在 GitHub 上创建仓库 准备好本地的文件存放位置 切换终端目录到本地文件夹 初始化本地文件夹1git init 连接到 GitHub 仓库 1git remote add origin 仓库网址（注意是 ssh 不是 url） 切换 1git branch -M main 把想要上传的文件拖放到本地文件夹 上">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-12-02T23:00:00.000Z">
 <meta property="article:modified_time" content="2022-02-20T16:30:30.309Z">
@@ -47,7 +47,9 @@
     <link href="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.3.5/dist/jquery.fancybox.min.css" rel="stylesheet">
   
   
-<meta name="generator" content="Hexo 6.0.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.0.0"></head>
 
 
 <body class="main-center theme-blue no-sidebar" itemscope itemtype="http://schema.org/WebPage">
@@ -219,7 +221,7 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">Catalogue</h3>
-      
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%92%8C-Github-%E4%BB%93%E5%BA%93%E5%90%8C%E6%AD%A5"><span class="toc-number">1.</span> <span class="toc-text">实现本地文件和 Github 仓库同步</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Macbook-Air-M1"><span class="toc-number">1.1.</span> <span class="toc-text">Macbook Air M1</span></a></li></ol></li></ol>
     </nav>
   </div>
 </aside>
@@ -273,24 +275,15 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <p>#实现本地文件和 Github 仓库同步<br>##Macbook Air M1 </p>
-<ol>
-<li><p>ssh 等配置</p>
-</li>
-<li><p>在 GitHub 上创建仓库</p>
-</li>
-<li><p>准备好本地的文件存放位置</p>
-</li>
-<li><p>切换终端目录到本地文件夹</p>
-</li>
-<li><p>初始化本地文件夹</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></li>
-<li><p>连接到 GitHub 仓库</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库网址（注意是 ssh 不是 url）</span><br></pre></td></tr></table></figure></li>
-<li><p>切换</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -M main</span><br></pre></td></tr></table></figure></li>
-<li><p> 把想要上传的文件拖放到本地文件夹</p>
-</li>
+        <h1 id="实现本地文件和-Github-仓库同步"><a href="#实现本地文件和-Github-仓库同步" class="headerlink" title="实现本地文件和 Github 仓库同步"></a>实现本地文件和 Github 仓库同步</h1><h2 id="Macbook-Air-M1"><a href="#Macbook-Air-M1" class="headerlink" title="Macbook Air M1"></a>Macbook Air M1</h2><ol>
+<li>ssh 等配置</li>
+<li>在 GitHub 上创建仓库</li>
+<li>准备好本地的文件存放位置</li>
+<li>切换终端目录到本地文件夹</li>
+<li>初始化本地文件夹<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></li>
+<li>连接到 GitHub 仓库 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库网址（注意是 ssh 不是 url）</span><br></pre></td></tr></table></figure></li>
+<li>切换 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -M main</span><br></pre></td></tr></table></figure></li>
+<li>把想要上传的文件拖放到本地文件夹</li>
 <li><p>上传</p>
 <ol>
 <li>将文件送到缓区<ol>
@@ -299,11 +292,13 @@
 </ol>
 </li>
 <li>commit<br>必须要有这一步，如果是全部文件到缓存区，则所有的文件都是这个注释，如果是指定文件到缓存区，则对指定文件注释<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Git commit -m “注释”  </span><br></pre></td></tr></table></figure></li>
-<li>上传<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main  </span><br></pre></td></tr></table></figure></li>
+<li>上传<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin main  </span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 </li>
 <li><p>取消链接</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote remove origin</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote remove origin</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 
       
@@ -361,7 +356,7 @@
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/12/30/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" title="markdown 没学明白指南"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+      <a href="/2021/12/30/%E5%A5%BD%E5%90%83%E7%9A%84/%E7%9C%9F%E5%A5%BD%E5%90%83/" title="好吃的"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
     </li>
     
     
