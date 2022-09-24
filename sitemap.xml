@@ -209,15 +209,6 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/links/index.html</loc>
-    
-    <lastmod>2021-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://littlewuuu.com/404.html</loc>
     
     <lastmod>2021-12-30</lastmod>
@@ -237,6 +228,15 @@
   
   <url>
     <loc>http://littlewuuu.com/tags/index.html</loc>
+    
+    <lastmod>2021-12-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/links/index.html</loc>
     
     <lastmod>2021-12-30</lastmod>
     
@@ -275,6 +275,13 @@
   </url>
   
   <url>
+    <loc>http://littlewuuu.com/tags/le-francais/</loc>
+    <lastmod>2022-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://littlewuuu.com/tags/ENG/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -282,7 +289,7 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/tags/le-francais/</loc>
+    <loc>http://littlewuuu.com/tags/%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E5%90%83%E7%9A%84/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -303,13 +310,6 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/tags/%E4%B8%80%E4%BA%9B%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA%E7%9A%84%E5%90%83%E7%9A%84/</loc>
-    <lastmod>2022-09-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://littlewuuu.com/tags/%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -319,14 +319,14 @@
 
   
   <url>
-    <loc>http://littlewuuu.com/categories/COURS/</loc>
+    <loc>http://littlewuuu.com/categories/SKILLS/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/categories/SKILLS/</loc>
+    <loc>http://littlewuuu.com/categories/COURS/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -347,14 +347,14 @@
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://littlewuuu.com/categories/%E5%81%9A%E9%A5%AD%E5%8C%BA/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://littlewuuu.com/categories/%E5%81%9A%E9%A5%AD%E5%8C%BA/</loc>
+    <loc>http://littlewuuu.com/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
