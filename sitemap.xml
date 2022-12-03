@@ -2,7 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://littlewuuu.com/2022/12/01/ECN%202nd/notes%20des%20cours%20/</loc>
+    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/5-MybatisExercise/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/9-HTTP&Tomcat&Servlet/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/20/%E9%BB%91%E9%A9%AC/10-Request&Response/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/11-%E4%BC%9A%E8%AF%9D%E6%8A%80%E6%9C%AF/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/12-Filter&Listener&Ajax/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/14-%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/08/30/JDBC/%E5%B0%9A%E7%A1%85%E8%B0%B7_%E5%AE%8B%E7%BA%A2%E5%BA%B7_JDBC/</loc>
     
     <lastmod>2022-12-03</lastmod>
     
@@ -12,6 +66,15 @@
   
   <url>
     <loc>http://littlewuuu.com/2022/11/20/%E7%AE%97%E6%B3%95/LeetCodeNotes/</loc>
+    
+    <lastmod>2022-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://littlewuuu.com/2022/12/01/ECN%202nd/notes%20des%20cours%20/</loc>
     
     <lastmod>2022-12-03</lastmod>
     
@@ -30,42 +93,6 @@
   
   <url>
     <loc>http://littlewuuu.com/2022/10/30/Francaise/a%CC%80%20memoriser/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/14-%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/8-JavaScript/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/7-HTML&CSS/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/5-MybatisExercise/</loc>
     
     <lastmod>2022-12-01</lastmod>
     
@@ -102,69 +129,6 @@
   
   <url>
     <loc>http://littlewuuu.com/404.html</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/11-%E4%BC%9A%E8%AF%9D%E6%8A%80%E6%9C%AF/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/6-HTML/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/9-HTTP&Tomcat&Servlet/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/10-Request&Response/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/13-VUE&Element&%E7%BB%BC%E5%90%88%E6%A1%88%E4%BE%8B/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/22/%E9%BB%91%E9%A9%AC/12-Filter&Listener&Ajax/</loc>
-    
-    <lastmod>2022-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://littlewuuu.com/2022/08/30/JDBC/%E5%B0%9A%E7%A1%85%E8%B0%B7_%E5%AE%8B%E7%BA%A2%E5%BA%B7_JDBC/</loc>
     
     <lastmod>2022-12-01</lastmod>
     
